@@ -1,0 +1,268 @@
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:04:37 883] - -----------------------------------------------------------------------------------------
+
+
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:04:37 884] - Resmgr::initialize: KBE_ROOT=F:/kbengine/
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:04:37 884] - Resmgr::initialize: KBE_RES_PATH=F:/kbengine/kbe/res/;F:/kbengine/kbengine_demos_assets/;F:/kbengine/kbengine_demos_assets/scripts/;F:/kbengine/kbengine_demos_assets/res/
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:04:37 884] - Resmgr::initialize: KBE_BIN_PATH=F:/kbengine/kbe/bin/server/
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:04:37 887] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.0.157 ( 192.168.0.157:52575 )
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:04:37 887] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.0.157:52575, SOMAXCONN=5.
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:04:37 887] - server-configs:
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:04:37 887] - 	internalAddr : 192.168.0.157:52575
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:04:37 887] - 	componentID : 4000
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:04:39 391] - ---- dbmgr Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: F679420710A02CD3A5AA610C30581A2E. Config: Debug X86. Built: 15:29:52 Jun 14 2017. AppID: 4000. UID: 49527. PID: 3240 ----
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:04:39 391] - Server : Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz with 2097151kB RAM
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:04:39 392] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:04:39 392] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:39 514] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:39 514] - Script::install_py_dlls(): PyInit__socket
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:39 515] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:39 516] - Script::install_py_dlls(): PyInit_select
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:39 516] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:39 517] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:39 540] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:04:39 566] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 14 2017, 15:29:45) [MSC v.1910 32 bit (Intel)])!
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:04:39 566] - Script::install(): KBExtra is successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:04:39 635] - Dbmgr::initializeEnd: digest(CB9166D533AC44AA58C80881426C6737)
+  S_INFO      dbmgr-1 49527 4000  [2017-06-14 18:04:39 636] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:04:39 636] - TelnetServer server is running on port 32000
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:04:39 636] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+ WARNING      dbmgr-1 49527 4000  [2017-06-14 18:04:39 810] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+206AECBA5A17E9CCF086C82CA384D4B0970294973F77F891EDA50285046CC8C65BBFABA17D82F7B9772812451D7CD42CE21A70F3867EB502E9D71A156EAAC7A800D07E146FC1DA08D0BDA4A9D82D40FB1782D697357CF56E148D10BFE5352553F116858CE38C018E1059C9521FE1E41417FAB18C60CFCE00CC2E0EC65E9563EB
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:39 812] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:39 814] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:04:39 814] - DBUtil::createInterface[0x150f07c]: interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=kbe, username=kbe, connected=yes.
+
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:04:39 814] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:04:39 815] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:04:39 919] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:04:39 920] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 49527 4000  [2017-06-14 18:05:18 641] - dbmgr.cpp:293: Profile scriptCall took 39.01 seconds
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:05:18 936] - ---- dbmgr is running ----
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:18 937] - Components::process(): Request for the process of identity...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:39 815] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:39 815] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:39 815] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:39 815] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:39 816] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:39 817] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:39 817] - DBThread::onStart(): 0x1860c90!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:39 818] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:39 818] - DBThread::onStart(): 0x1860f38!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:39 818] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:39 818] - DBThread::onStart(): 0x18611e0!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:39 818] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:39 818] - DBThread::onStart(): 0x18617b8!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:39 818] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:39 818] - DBThread::onStart(): 0x1860c08!
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:04:39 923] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:04:39 923] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:04:39 923] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:04:39 923] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:04:39 924] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:04:39 924] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:04:39 924] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:39 929] - syncToDB(): Account->sm_lastSelCharacter(bigint unsigned not null DEFAULT 0).
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:04:39 929] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:40 538] - syncToDB(): Account_characters_values->sm_autoLoad(tinyint not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:40 539] - syncToDB(): Avatar->sm_autoLoad(tinyint not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:40 539] - syncToDB(): Monster->sm_autoLoad(tinyint not null DEFAULT 0).
+ WARNING      dbmgr-1 49527 4000  [2017-06-14 18:04:40 539] - DBTask::process(): took 0.62 seconds
+sql:(show index from tbl_Account)
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:40 539] - syncToDB(): Avatar_skills->sm_autoLoad(tinyint not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:41 692] - syncToDB(): NPC->sm_autoLoad(tinyint not null DEFAULT 0).
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:04:42 109] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:04:42 109] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:42 109] - syncToDB(): Monster->sm_dbid(bigint unsigned not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:42 109] - syncToDB(): Avatar_skills->sm_value(int not null DEFAULT 0).
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:04:42 401] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:42 401] - syncToDB(): Account_characters_values->sm_dbid(bigint unsigned not null DEFAULT 0).
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:04:42 701] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:42 701] - syncToDB(): Avatar->sm_roleType(tinyint unsigned not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:43 276] - syncToDB(): Account_characters_values->sm_name(varchar(256) not null DEFAULT '').
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:43 276] - syncToDB(): Monster->sm_persistentMapping(blob).
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:04:43 276] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 49527 4000  [2017-06-14 18:04:43 276] - DBTask::process(): took 3.35 seconds
+sql:(show index from tbl_Avatar_skills)
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:43 277] - syncToDB(): NPC->sm_dbid(bigint unsigned not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:43 277] - syncToDB(): Avatar->sm_dbid(bigint unsigned not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:44 394] - syncToDB(): Monster->sm_0_position(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:44 394] - syncToDB(): Spaces->sm_autoLoad(tinyint not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:44 722] - syncToDB(): Account_characters_values->sm_roleType(tinyint unsigned not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:44 889] - syncToDB(): Avatar->sm_persistentMapping(blob).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:45 018] - syncToDB(): NPC->sm_persistentMapping(blob).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:45 305] - syncToDB(): Monster->sm_1_position(float not null DEFAULT 0).
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:04:45 786] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:45 786] - syncToDB(): Avatar->sm_0_position(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:45 786] - syncToDB(): Spaces->sm_dbid(bigint unsigned not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:46 104] - syncToDB(): NPC->sm_0_position(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:46 104] - syncToDB(): Account_characters_values->sm_level(smallint unsigned not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:46 361] - syncToDB(): Monster->sm_2_position(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:47 995] - syncToDB(): Avatar->sm_1_position(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:48 316] - syncToDB(): Spaces->sm_persistentMapping(blob).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:49 100] - syncToDB(): Account_characters_values->sm_data_param1(tinyint not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:49 523] - syncToDB(): NPC->sm_1_position(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:49 979] - syncToDB(): Spaces->sm_name(varchar(255) not null DEFAULT '').
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:50 213] - syncToDB(): Monster->sm_0_direction(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:50 388] - syncToDB(): Avatar->sm_2_position(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:50 388] - syncToDB(): Account_characters_values->sm_data_param2(blob).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:51 047] - syncToDB(): NPC->sm_2_position(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:51 299] - syncToDB(): Spaces->sm_uid(int unsigned not null DEFAULT 0).
+ WARNING      dbmgr-1 49527 4000  [2017-06-14 18:04:51 814] - DBTask::process(): took 11.89 seconds
+sql:(show index from tbl_Account_characters_values)
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:51 966] - syncToDB(): Monster->sm_1_direction(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:52 159] - syncToDB(): Avatar->sm_0_direction(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:52 408] - syncToDB(): NPC->sm_0_direction(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:52 516] - syncToDB(): Gate->sm_autoLoad(tinyint not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:52 516] - syncToDB(): Spaces->sm_utype(int unsigned not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:52 883] - syncToDB(): Monster->sm_2_direction(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:53 800] - syncToDB(): NPC->sm_1_direction(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:54 303] - syncToDB(): Avatar->sm_1_direction(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:54 303] - syncToDB(): Monster->sm_name(varchar(255) not null DEFAULT '').
+ WARNING      dbmgr-1 49527 4000  [2017-06-14 18:04:54 303] - DBTask::process(): delay 3.36 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(show index from tbl_Spaces)
+ WARNING      dbmgr-1 49527 4000  [2017-06-14 18:04:54 303] - DBTask::process(): took 11.03 seconds
+sql:(show index from tbl_Spaces)
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:54 786] - syncToDB(): NPC->sm_2_direction(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:55 493] - syncToDB(): Space->sm_autoLoad(tinyint not null DEFAULT 0).
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:04:55 493] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:55 493] - syncToDB(): Gate->sm_dbid(bigint unsigned not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:55 685] - syncToDB(): Monster->sm_uid(int unsigned not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:55 992] - syncToDB(): Avatar->sm_2_direction(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:56 159] - syncToDB(): NPC->sm_name(varchar(255) not null DEFAULT '').
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:57 219] - syncToDB(): Gate->sm_persistentMapping(blob).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:57 508] - syncToDB(): Monster->sm_utype(int unsigned not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:57 831] - syncToDB(): NPC->sm_uid(int unsigned not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:58 361] - syncToDB(): Avatar->sm_spaceUType(int unsigned not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:58 911] - syncToDB(): Gate->sm_0_position(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:58 911] - syncToDB(): Monster->sm_HP(int not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:59 061] - syncToDB(): NPC->sm_utype(int unsigned not null DEFAULT 0).
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:04:59 302] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:59 302] - syncToDB(): Space->sm_spaceKey(bigint unsigned not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:04:59 552] - syncToDB(): Avatar->sm_level(smallint unsigned not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:00 511] - syncToDB(): Gate->sm_1_position(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:00 995] - syncToDB(): Avatar->sm_name(varchar(255) not null DEFAULT '').
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:01 062] - syncToDB(): Monster->sm_MP(int not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:01 194] - syncToDB(): Space->sm_context(blob).
+ WARNING      dbmgr-1 49527 4000  [2017-06-14 18:05:01 194] - DBTask::process(): took 20.66 seconds
+sql:(show index from tbl_NPC)
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:01 837] - syncToDB(): Gate->sm_2_position(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:02 404] - syncToDB(): SpaceDuplicate->sm_autoLoad(tinyint not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:02 406] - syncToDB(): Avatar->sm_uid(int unsigned not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:02 406] - syncToDB(): Space->sm_dbid(bigint unsigned not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:02 406] - syncToDB(): Gate->sm_0_direction(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:02 406] - syncToDB(): Monster->sm_state(tinyint not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:03 866] - syncToDB(): Gate->sm_1_direction(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:03 866] - syncToDB(): Space->sm_persistentMapping(blob).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:03 867] - syncToDB(): Avatar->sm_utype(int unsigned not null DEFAULT 0).
+ WARNING      dbmgr-1 49527 4000  [2017-06-14 18:05:03 867] - DBTask::process(): took 23.88 seconds
+sql:(show index from tbl_Monster)
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:04 764] - syncToDB(): SpawnPoint->sm_autoLoad(tinyint not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:04 839] - syncToDB(): Gate->sm_2_direction(float not null DEFAULT 0).
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:05:04 906] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:04 906] - syncToDB(): SpaceDuplicate->sm_spaceKey(bigint unsigned not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:05 081] - syncToDB(): Space->sm_0_position(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:05 081] - syncToDB(): Avatar->sm_HP(int not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:06 398] - syncToDB(): Gate->sm_name(varchar(255) not null DEFAULT '').
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:06 686] - syncToDB(): Space->sm_1_position(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:06 687] - syncToDB(): SpaceDuplicate->sm_context(blob).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:06 832] - syncToDB(): Avatar->sm_MP(int not null DEFAULT 0).
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:05:07 849] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:07 850] - syncToDB(): SpawnPoint->sm_spawnEntityNO(int unsigned not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:07 891] - syncToDB(): Gate->sm_uid(int unsigned not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:08 016] - syncToDB(): Avatar->sm_state(tinyint not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:08 016] - syncToDB(): SpaceDuplicate->sm_dbid(bigint unsigned not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:08 224] - syncToDB(): Space->sm_2_position(float not null DEFAULT 0).
+ WARNING      dbmgr-1 49527 4000  [2017-06-14 18:05:09 300] - DBTask::process(): took 29.38 seconds
+sql:(show index from tbl_Avatar)
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:09 353] - syncToDB(): Gate->sm_utype(int unsigned not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:09 353] - syncToDB(): SpaceDuplicate->sm_persistentMapping(blob).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:09 353] - syncToDB(): Space->sm_0_direction(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:09 353] - syncToDB(): SpawnPoint->sm_dbid(bigint unsigned not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:10 460] - syncToDB(): Space->sm_1_direction(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:10 460] - syncToDB(): SpaceDuplicate->sm_0_position(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:10 460] - syncToDB(): SpawnPoint->sm_persistentMapping(blob).
+ WARNING      dbmgr-1 49527 4000  [2017-06-14 18:05:10 461] - DBTask::process(): delay 11.90 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(show index from tbl_Gate)
+ WARNING      dbmgr-1 49527 4000  [2017-06-14 18:05:10 461] - DBTask::process(): took 18.65 seconds
+sql:(show index from tbl_Gate)
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:11 393] - syncToDB(): Space->sm_2_direction(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:11 393] - syncToDB(): SpawnPoint->sm_0_position(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:11 394] - syncToDB(): SpaceDuplicate->sm_1_position(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:12 527] - syncToDB(): SpaceDuplicate->sm_2_position(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:12 528] - syncToDB(): SpawnPoint->sm_1_position(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:12 528] - syncToDB(): Space->sm_name(varchar(255) not null DEFAULT '').
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:13 416] - syncToDB(): SpaceDuplicate->sm_0_direction(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:13 416] - syncToDB(): SpawnPoint->sm_2_position(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:14 050] - syncToDB(): Space->sm_uid(int unsigned not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:14 317] - syncToDB(): SpawnPoint->sm_0_direction(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:14 508] - syncToDB(): SpaceDuplicate->sm_1_direction(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:14 833] - syncToDB(): Space->sm_utype(int unsigned not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:15 161] - syncToDB(): SpawnPoint->sm_1_direction(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:15 478] - syncToDB(): SpaceDuplicate->sm_2_direction(float not null DEFAULT 0).
+ WARNING      dbmgr-1 49527 4000  [2017-06-14 18:05:15 734] - DBTask::process(): delay 14.38 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(show index from tbl_Space)
+ WARNING      dbmgr-1 49527 4000  [2017-06-14 18:05:15 735] - DBTask::process(): took 21.43 seconds
+sql:(show index from tbl_Space)
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:15 878] - syncToDB(): SpawnPoint->sm_2_direction(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:15 879] - syncToDB(): SpaceDuplicate->sm_name(varchar(255) not null DEFAULT '').
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:17 035] - syncToDB(): SpawnPoint->sm_name(varchar(255) not null DEFAULT '').
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:17 035] - syncToDB(): SpaceDuplicate->sm_uid(int unsigned not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:17 548] - syncToDB(): SpaceDuplicate->sm_utype(int unsigned not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:17 548] - syncToDB(): SpawnPoint->sm_uid(int unsigned not null DEFAULT 0).
+ WARNING      dbmgr-1 49527 4000  [2017-06-14 18:05:18 239] - DBTask::process(): delay 21.28 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(show index from tbl_SpaceDuplicate)
+ WARNING      dbmgr-1 49527 4000  [2017-06-14 18:05:18 239] - DBTask::process(): took 17.04 seconds
+sql:(show index from tbl_SpaceDuplicate)
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:18 239] - syncToDB(): SpawnPoint->sm_utype(int unsigned not null DEFAULT 0).
+ WARNING      dbmgr-1 49527 4000  [2017-06-14 18:05:18 620] - DBTask::process(): delay 23.95 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(show index from tbl_SpawnPoint)
+ WARNING      dbmgr-1 49527 4000  [2017-06-14 18:05:18 620] - DBTask::process(): took 14.75 seconds
+sql:(show index from tbl_SpawnPoint)
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:05:25 033] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:52583, extaddr:192.168.0.157, extport:20013,  from 192.168.0.157:52686/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:05:25 033] - Components::addComponent: reset orderLog, uid=49527!
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:05:25 033] - Components::addComponent[loginapp], uid=49527, componentID=9000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:05:25 034] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:52576, extaddr:nonsupport, extport:0,  from 192.168.0.157:52688/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:05:25 034] - Components::addComponent[baseappmgr], uid=49527, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:05:25 034] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:52577, extaddr:nonsupport, extport:0,  from 192.168.0.157:52690/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:05:25 034] - Components::addComponent[cellappmgr], uid=49527, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:05:25 973] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:52579, extaddr:192.168.0.157, extport:20015,  from 192.168.0.157:52698/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:05:25 974] - Components::addComponent[baseapp], uid=49527, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:05:26 013] - Components::findComponents: find logger(1)...
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:05:26 026] - Components::findComponents: found logger, addr:192.168.0.157:52573
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:05:26 026] - Components::addComponent[logger], uid=49527, componentID=2000, globalorderid=5, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:05:26 027] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:52582, extaddr:nonsupport, extport:0,  from 192.168.0.157:52699/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:05:26 027] - Components::addComponent[cellapp], uid=49527, componentID=8001, globalorderid=6, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:05:26 033] - Components::process(): Found all the components!
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:05:29 033] - IDServer::allocRange: 1-2001.
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:05:29 033] - IDServer::allocRange: 2001-4001.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:05:29 033] - SyncAppDatasHandler::~SyncAppDatasHandler()
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:05:31 373] - GlobalDataServer::broadcastDataChanged: writer(baseapp, addr=192.168.0.157:52698/0/0/0), keySize=12, valSize=46, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:05:34 432] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:52699/0/0/0), keySize=13, valSize=46, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:05:35 432] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:52699/0/0/0), keySize=13, valSize=47, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:05:36 432] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:52699/0/0/0), keySize=13, valSize=47, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:05:37 432] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:52699/0/0/0), keySize=13, valSize=47, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:05:39 432] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:52699/0/0/0), keySize=13, valSize=47, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:05:40 432] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:52699/0/0/0), keySize=13, valSize=47, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:07:00 346] - DBTaskAccountLogin::db_thread_process(): not found account[TEST], autocreate successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:07:00 387] - Dbmgr::onAccountLogin:loginName=TEST, accountName=TEST, success=0, componentID=0, dbid=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:07:01 107] - Dbmgr::queryAccount: TEST, success=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:07:11 646] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:07:11 707] - Dbmgr::writeEntity: Account(1).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:07:11 726] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:07:11 727] - Dbmgr::onEntityOffline: 1, entityType=2.
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:07:11 690] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=176, dbid=1, dbid_tasks_size=2, entityid_tasks_size=0.
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:07:11 711] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=1, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:07:18 906] - Dbmgr::DBTaskQueryEntity: Avatar, dbid=1, entityID=177, wasActive=0, queryMode=0, componentID=7001, success=1.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:09:14 198] - Dbmgr::writeEntity: Account(1).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:09:14 199] - Dbmgr::onEntityOffline: 1, entityType=1.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:09:14 239] - Dbmgr::writeEntity: Avatar(1).
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:09:14 180] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=1, dbid_tasks_size=3, entityid_tasks_size=0.
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:09:14 193] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=177, dbid=1, dbid_tasks_size=2, entityid_tasks_size=0.
+    INFO      dbmgr-1 49527 4000  [2017-06-14 18:09:14 238] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=1, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 18:09:14 280] - Dbmgr::onEntityOffline: 1, entityType=2.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-14 19:05:18 484] - Dbmgr::DBTaskServerLog()
+ WARNING      dbmgr-1 49527 4000  [2017-06-14 19:57:31 518] - TCPPacketReceiver::processPendingEvents(192.168.0.157:52686): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+   ERROR      dbmgr-1 49527 4000  [2017-06-14 19:57:31 525] - Components::removeComponentByChannel: loginapp : 9000, Abnormal exit! errorno=10054
+ WARNING      dbmgr-1 49527 4000  [2017-06-14 19:57:31 983] - TCPPacketReceiver::processPendingEvents(192.168.0.157:52698): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+   ERROR      dbmgr-1 49527 4000  [2017-06-14 19:57:31 986] - Components::removeComponentByChannel: baseapp : 7001, Abnormal exit! errorno=10054

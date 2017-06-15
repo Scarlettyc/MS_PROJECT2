@@ -1,0 +1,48 @@
+  INFO root [0x00001c04] [2017-06-14 18:04:38,307] - 
+  INFO root [0x00001c04] [2017-06-14 18:04:38,307] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00001c04] [2017-06-14 18:04:38,308] - Resmgr::initialize: KBE_ROOT=F:/kbengine/
+  INFO root [0x00001c04] [2017-06-14 18:04:38,308] - Resmgr::initialize: KBE_RES_PATH=F:/kbengine/kbe/res/;F:/kbengine/kbengine_demos_assets/;F:/kbengine/kbengine_demos_assets/scripts/;F:/kbengine/kbengine_demos_assets/res/
+  INFO root [0x00001c04] [2017-06-14 18:04:38,308] - Resmgr::initialize: KBE_BIN_PATH=F:/kbengine/kbe/bin/server/
+  INFO root [0x00001c04] [2017-06-14 18:04:38,311] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.0.157 ( 192.168.0.157:52582 )
+  INFO root [0x00001c04] [2017-06-14 18:04:38,312] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.0.157:52582, SOMAXCONN=5.
+  INFO root [0x00001c04] [2017-06-14 18:04:38,312] - server-configs:
+  INFO root [0x00001c04] [2017-06-14 18:04:38,312] - 	gameUpdateHertz : 10
+  INFO root [0x00001c04] [2017-06-14 18:04:38,312] - 	defaultAoIRadius : 80
+  INFO root [0x00001c04] [2017-06-14 18:04:38,312] - 	defaultAoIHysteresisArea : 5
+  INFO root [0x00001c04] [2017-06-14 18:04:38,312] - 	entryScriptFile : kbemain
+  INFO root [0x00001c04] [2017-06-14 18:04:38,312] - 	internalAddr : 192.168.0.157:52582
+  INFO root [0x00001c04] [2017-06-14 18:04:38,312] - 	componentID : 8001
+  INFO root [0x00001c04] [2017-06-14 18:04:38,370] - Components::findLogger: found logger, addr:192.168.0.157:52573
+  INFO root [0x00001c04] [2017-06-14 18:04:38,370] - Components::addComponent: reset orderLog, uid=49527!
+  INFO root [0x00001c04] [2017-06-14 18:04:38,370] - Components::addComponent[logger], uid=49527, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00001c04] [2017-06-14 18:04:38,374] - ---- cellapp Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 61C0A75CEF2A4CE7BEF993D5E586CAC7. Config: Debug X86. Built: 15:30:48 Jun 14 2017. AppID: 8001. UID: 49527. PID: 5452 ----
+  INFO root [0x00001c04] [2017-06-14 18:04:38,374] - Server : Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz with 2097151kB RAM
+  INFO root [0x00001c04] [2017-06-14 18:04:38,374] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00001c04] [2017-06-14 18:04:38,374] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00001c04] [2017-06-14 18:04:38,498] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00001c04] [2017-06-14 18:04:38,498] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00001c04] [2017-06-14 18:04:38,499] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00001c04] [2017-06-14 18:04:38,500] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00001c04] [2017-06-14 18:04:38,500] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00001c04] [2017-06-14 18:04:38,501] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00001c04] [2017-06-14 18:04:38,535] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00001c04] [2017-06-14 18:04:38,561] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 14 2017, 15:30:05) [MSC v.1910 32 bit (Intel)])!
+  INFO root [0x00001c04] [2017-06-14 18:04:38,561] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00001c04] [2017-06-14 18:04:38,767] - loaded script:Avatar(2).
+ DEBUG root [0x00001c04] [2017-06-14 18:04:38,777] - loaded script:Monster(3).
+ DEBUG root [0x00001c04] [2017-06-14 18:04:38,780] - loaded script:NPC(4).
+ DEBUG root [0x00001c04] [2017-06-14 18:04:38,782] - loaded script:Gate(5).
+ DEBUG root [0x00001c04] [2017-06-14 18:04:38,785] - loaded script:Space(7).
+ DEBUG root [0x00001c04] [2017-06-14 18:04:38,788] - loaded script:SpaceDuplicate(8).
+ DEBUG root [0x00001c04] [2017-06-14 18:04:38,791] - loaded script:SpawnPoint(9).
+  INFO root [0x00001c04] [2017-06-14 18:04:38,792] - TelnetServer server is running on port 50000
+  INFO root [0x00001c04] [2017-06-14 18:04:39,116] - ---- cellapp is running ----
+ DEBUG root [0x00001c04] [2017-06-14 18:04:39,117] - Components::process(): Request for the process of identity...
+  WARN root [0x00001c04] [2017-06-14 18:04:45,176] - Forwarding logs to logger[192.168.0.157:52573/0/0/0]...
+ ERROR root [0x00001c04] [2017-06-14 19:57:31,987] - Components::removeComponentByChannel: baseapp : 7001, Abnormal exit! errorno=10054
+ ERROR root [0x00001c04] [2017-06-14 19:57:32,701] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [0x00001c04] [2017-06-14 19:57:32,735] - The following logs sent to logger failed:
+  WARN root [0x00001c04] [2017-06-14 19:57:32,736] - ==> [2017-06-14 19:57:32 699] TCPPacketReceiver::processPendingEvents(192.168.0.157:52573): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00001c04] [2017-06-14 19:57:32,738] - ==> [2017-06-14 19:57:32 703] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054

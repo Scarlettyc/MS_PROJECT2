@@ -1,0 +1,970 @@
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:04:38 308] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:04:38 308] - Resmgr::initialize: KBE_ROOT=F:/kbengine/
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:04:38 309] - Resmgr::initialize: KBE_RES_PATH=F:/kbengine/kbe/res/;F:/kbengine/kbengine_demos_assets/;F:/kbengine/kbengine_demos_assets/scripts/;F:/kbengine/kbengine_demos_assets/res/
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:04:38 309] - Resmgr::initialize: KBE_BIN_PATH=F:/kbengine/kbe/bin/server/
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:04:38 312] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.0.157 ( 192.168.0.157:52582 )
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:04:38 312] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.0.157:52582, SOMAXCONN=5.
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:04:38 312] - server-configs:
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:04:38 312] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:04:38 312] - 	defaultAoIRadius : 80
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:04:38 312] - 	defaultAoIHysteresisArea : 5
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:04:38 312] - 	entryScriptFile : kbemain
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:04:38 313] - 	internalAddr : 192.168.0.157:52582
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:04:38 313] - 	componentID : 8001
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:04:38 370] - Components::findLogger: found logger, addr:192.168.0.157:52573
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:04:38 370] - Components::addComponent: reset orderLog, uid=49527!
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:04:38 370] - Components::addComponent[logger], uid=49527, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:04:38 374] - ---- cellapp Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 61C0A75CEF2A4CE7BEF993D5E586CAC7. Config: Debug X86. Built: 15:30:48 Jun 14 2017. AppID: 8001. UID: 49527. PID: 5452 ----
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:04:38 374] - Server : Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz with 2097151kB RAM
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:04:38 374] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:04:38 374] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    cellapp-1 49527 8001  [2017-06-14 18:04:38 499] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    cellapp-1 49527 8001  [2017-06-14 18:04:38 499] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    cellapp-1 49527 8001  [2017-06-14 18:04:38 499] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    cellapp-1 49527 8001  [2017-06-14 18:04:38 501] - Script::install_py_dlls(): PyInit_select
+   DEBUG    cellapp-1 49527 8001  [2017-06-14 18:04:38 501] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    cellapp-1 49527 8001  [2017-06-14 18:04:38 501] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    cellapp-1 49527 8001  [2017-06-14 18:04:38 535] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:04:38 561] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 14 2017, 15:30:05) [MSC v.1910 32 bit (Intel)])!
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:04:38 561] - Script::install(): KBExtra is successfully!
+   DEBUG    cellapp-1 49527 8001  [2017-06-14 18:04:38 767] - loaded script:Avatar(2).
+   DEBUG    cellapp-1 49527 8001  [2017-06-14 18:04:38 778] - loaded script:Monster(3).
+   DEBUG    cellapp-1 49527 8001  [2017-06-14 18:04:38 780] - loaded script:NPC(4).
+   DEBUG    cellapp-1 49527 8001  [2017-06-14 18:04:38 783] - loaded script:Gate(5).
+   DEBUG    cellapp-1 49527 8001  [2017-06-14 18:04:38 786] - loaded script:Space(7).
+   DEBUG    cellapp-1 49527 8001  [2017-06-14 18:04:38 788] - loaded script:SpaceDuplicate(8).
+   DEBUG    cellapp-1 49527 8001  [2017-06-14 18:04:38 792] - loaded script:SpawnPoint(9).
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:04:38 792] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:04:39 116] - ---- cellapp is running ----
+   DEBUG    cellapp-1 49527 8001  [2017-06-14 18:04:39 117] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 49527 8001  [2017-06-14 18:04:45 177] - EntityApp::checkTickPeriod: tick took 6060% (6.06 seconds)!
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:04:46 216] - Components::findComponents: find dbmgr(1)...
+ WARNING    cellapp-1 49527 8001  [2017-06-14 18:04:47 251] - EntityApp::checkTickPeriod: tick took 1134% (1.13 seconds)!
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:04:48 310] - Components::findComponents: find dbmgr(2)...
+ WARNING    cellapp-1 49527 8001  [2017-06-14 18:04:49 365] - EntityApp::checkTickPeriod: tick took 1148% (1.15 seconds)!
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:04:50 409] - Components::findComponents: find dbmgr(3)...
+ WARNING    cellapp-1 49527 8001  [2017-06-14 18:04:51 478] - EntityApp::checkTickPeriod: tick took 1161% (1.16 seconds)!
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:04:52 509] - Components::findComponents: find dbmgr(4)...
+ WARNING    cellapp-1 49527 8001  [2017-06-14 18:04:53 592] - EntityApp::checkTickPeriod: tick took 1175% (1.17 seconds)!
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:04:54 610] - Components::findComponents: find dbmgr(5)...
+ WARNING    cellapp-1 49527 8001  [2017-06-14 18:04:55 709] - EntityApp::checkTickPeriod: tick took 1192% (1.19 seconds)!
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:04:56 709] - Components::findComponents: find dbmgr(6)...
+ WARNING    cellapp-1 49527 8001  [2017-06-14 18:04:57 726] - EntityApp::checkTickPeriod: tick took 1108% (1.11 seconds)!
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:04:58 810] - Components::findComponents: find dbmgr(7)...
+ WARNING    cellapp-1 49527 8001  [2017-06-14 18:04:59 840] - EntityApp::checkTickPeriod: tick took 1123% (1.12 seconds)!
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:05:00 910] - Components::findComponents: find dbmgr(8)...
+ WARNING    cellapp-1 49527 8001  [2017-06-14 18:05:01 953] - EntityApp::checkTickPeriod: tick took 1137% (1.14 seconds)!
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:05:03 010] - Components::findComponents: find dbmgr(9)...
+ WARNING    cellapp-1 49527 8001  [2017-06-14 18:05:04 070] - EntityApp::checkTickPeriod: tick took 1154% (1.15 seconds)!
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:05:05 110] - Components::findComponents: find dbmgr(10)...
+ WARNING    cellapp-1 49527 8001  [2017-06-14 18:05:06 186] - EntityApp::checkTickPeriod: tick took 1168% (1.17 seconds)!
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:05:07 210] - Components::findComponents: find dbmgr(11)...
+ WARNING    cellapp-1 49527 8001  [2017-06-14 18:05:08 299] - EntityApp::checkTickPeriod: tick took 1182% (1.18 seconds)!
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:05:09 310] - Components::findComponents: find dbmgr(12)...
+ WARNING    cellapp-1 49527 8001  [2017-06-14 18:05:10 313] - EntityApp::checkTickPeriod: tick took 1096% (1.10 seconds)!
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:05:11 316] - Components::findComponents: find dbmgr(13)...
+ WARNING    cellapp-1 49527 8001  [2017-06-14 18:05:12 327] - EntityApp::checkTickPeriod: tick took 1110% (1.11 seconds)!
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:05:13 410] - Components::findComponents: find dbmgr(14)...
+ WARNING    cellapp-1 49527 8001  [2017-06-14 18:05:14 441] - EntityApp::checkTickPeriod: tick took 1124% (1.12 seconds)!
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:05:15 510] - Components::findComponents: find dbmgr(15)...
+ WARNING    cellapp-1 49527 8001  [2017-06-14 18:05:16 557] - EntityApp::checkTickPeriod: tick took 1140% (1.14 seconds)!
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:05:17 610] - Components::findComponents: find dbmgr(16)...
+ WARNING    cellapp-1 49527 8001  [2017-06-14 18:05:18 672] - EntityApp::checkTickPeriod: tick took 1155% (1.15 seconds)!
+ WARNING    cellapp-1 49527 8001  [2017-06-14 18:05:19 709] - Components::findComponents: find dbmgr(17)...
+delay time is too long, please check the dbmgr logs!
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:05:19 787] - Components::findComponents: found dbmgr, addr:192.168.0.157:52575
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:05:19 787] - Components::addComponent: reset orderLog, uid=49527!
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:05:19 787] - Components::addComponent[dbmgr], uid=49527, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:05:19 787] - Components::findComponents: found dbmgr, addr:192.168.0.157:52575
+ WARNING    cellapp-1 49527 8001  [2017-06-14 18:05:20 787] - EntityApp::checkTickPeriod: tick took 1170% (1.17 seconds)!
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:05:21 810] - Components::findComponents: find cellappmgr(1)...
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:05:21 903] - Components::findComponents: found cellappmgr, addr:192.168.0.157:52577
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:05:21 904] - Components::addComponent[cellappmgr], uid=49527, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:05:21 904] - Components::findComponents: found cellappmgr, addr:192.168.0.157:52577
+ WARNING    cellapp-1 49527 8001  [2017-06-14 18:05:22 904] - EntityApp::checkTickPeriod: tick took 1187% (1.19 seconds)!
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:05:23 909] - Components::findComponents: find baseappmgr(1)...
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:05:23 916] - Components::findComponents: found baseappmgr, addr:192.168.0.157:52576
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:05:23 916] - Components::addComponent[baseappmgr], uid=49527, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:05:23 916] - Components::findComponents: found baseappmgr, addr:192.168.0.157:52576
+ WARNING    cellapp-1 49527 8001  [2017-06-14 18:05:24 916] - EntityApp::checkTickPeriod: tick took 1099% (1.10 seconds)!
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:05:26 009] - Components::findComponents: register self to dbmgr...
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:05:26 016] - Components::findComponents: register self to cellappmgr...
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:05:26 058] - Components::findComponents: register self to baseappmgr...
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:05:26 059] - Components::process(): Found all the components!
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:05:26 117] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:52579, extaddr:192.168.0.157, extport:20015,  from 192.168.0.157:52704/0/0/0.
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:05:26 117] - Components::addComponent[baseapp], uid=49527, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:05:26 117] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:52579, extaddr:192.168.0.157, extport:20015,  from 192.168.0.157:52704/0/0/0.
+    INFO    cellapp-1 49527 8001  [2017-06-14 18:05:29 117] - EntityApp::onDbmgrInitCompleted: entityID alloc(2001-4001), startGlobalOrder=6, startGroupOrder=1, digest=CB9166D533AC44AA58C80881426C6737.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:29 117] - IDClient::onAddRange: number of ids increased from 2001 to 4001.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:05:30 326] - onInit::isReload:0
+ WARNING    cellapp01 49527 8001  [2017-06-14 18:05:30 327] - F:\kbengine\kbe\src\lib\server/entity_app.h:750: Profile processRecvMessages took 1.21 seconds
+ WARNING    cellapp01 49527 8001  [2017-06-14 18:05:30 327] - cellapp.cpp:253: Profile gameTick took 1.21 seconds
+ WARNING    cellapp01 49527 8001  [2017-06-14 18:05:30 327] - EntityApp::checkTickPeriod: tick took 1210% (1.21 seconds)!
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:30 410] - InitProgressHandler::~InitProgressHandler()
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:05:31 417] - onGlobalData: Spaces
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:34 417] - Spaces::createNewSpace: new space(Space) 1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:34 417] - EntityApp::createEntity: new Space 2
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:34 418] - KBEngine::addSpaceGeometryMapping: spaceID=1, respath=spaces/xinshoucun, shouldLoadOnServer=1!
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:05:34 418] - onSpaceData: spaceID=1, key=_mapping, value=spaces/xinshoucun.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:05:34 418] - created space[1] entityID = 2, res = spaces/xinshoucun.
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:34 418] - NavMeshHandle::create: (F:/kbengine/kbengine_demos_assets/res/spaces/xinshoucun/srv_xinshoucun.navmesh), layer=0
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:34 427] - 	==> tiles loaded: 25
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:34 427] - 	==> BVTree nodes: 19604
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:34 427] - 	==> 9802 polygons (18805 vertices)
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:34 427] - 	==> 27368 triangles (6525 vertices)
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:34 427] - 	==> 1.57 MB of data (not including pointers)
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:34 427] - NavMeshHandle::create: (F:/kbengine/kbengine_demos_assets/res/spaces/xinshoucun/srv_xinshoucun_1.navmesh), layer=1
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:34 431] - 	==> tiles loaded: 25
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:34 431] - 	==> BVTree nodes: 14760
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:34 431] - 	==> 7380 polygons (13002 vertices)
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:34 431] - 	==> 21866 triangles (6102 vertices)
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:34 431] - 	==> 1.18 MB of data (not including pointers)
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:34 517] - KBEngine::onLoadedSpaceGeometryMapping: spaceID=1, respath=spaces/xinshoucun!
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:05:34 517] - onSpaceGeometryLoaded: spaceID=1, mapping=spaces/xinshoucun.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:05:34 517] - onAllSpaceGeometryLoaded: spaceID=1, isBootstrap=1, mapping=spaces/xinshoucun.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:34 717] - EntityApp::createEntity: new SpawnPoint 3
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:34 817] - EntityApp::createEntity: new SpawnPoint 4
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:34 917] - EntityApp::createEntity: new SpawnPoint 5
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:35 017] - EntityApp::createEntity: new SpawnPoint 6
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:35 117] - EntityApp::createEntity: new SpawnPoint 7
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:35 217] - EntityApp::createEntity: new SpawnPoint 8
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:35 317] - EntityApp::createEntity: new SpawnPoint 9
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:35 417] - Spaces::createNewSpace: new space(Space) 2.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:35 417] - EntityApp::createEntity: new Space 10
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:35 417] - KBEngine::addSpaceGeometryMapping: spaceID=2, respath=spaces/kbengine_ogre_demo, shouldLoadOnServer=1!
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:05:35 418] - onSpaceData: spaceID=2, key=_mapping, value=spaces/kbengine_ogre_demo.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:05:35 418] - created space[2] entityID = 10, res = spaces/kbengine_ogre_demo.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:35 419] - EntityApp::createEntity: new SpawnPoint 11
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:35 517] - KBEngine::onLoadedSpaceGeometryMapping: spaceID=2, respath=spaces/kbengine_ogre_demo!
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:05:35 517] - onSpaceGeometryLoaded: spaceID=2, mapping=spaces/kbengine_ogre_demo.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:05:35 517] - onAllSpaceGeometryLoaded: spaceID=2, isBootstrap=1, mapping=spaces/kbengine_ogre_demo.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:35 517] - EntityApp::createEntity: new SpawnPoint 12
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:35 617] - EntityApp::createEntity: new SpawnPoint 13
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:35 717] - EntityApp::createEntity: new NPC 2001
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:35 717] - EntityApp::createEntity: new SpawnPoint 14
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:35 719] - EntityApp::createEntity: new SpawnPoint 15
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:35 817] - EntityApp::createEntity: new Monster 2002
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:35 818] - EntityApp::createEntity: new SpawnPoint 16
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:35 818] - EntityApp::createEntity: new SpawnPoint 17
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:35 917] - EntityApp::createEntity: new Monster 2003
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:35 918] - Monster::addTerritory: 2003 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:35 918] - EntityApp::createEntity: new SpawnPoint 18
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:35 918] - EntityApp::createEntity: new SpawnPoint 19
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 017] - EntityApp::createEntity: new Monster 2004
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 018] - EntityApp::createEntity: new SpawnPoint 20
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 018] - EntityApp::createEntity: new SpawnPoint 21
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 117] - EntityApp::createEntity: new Monster 2005
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 118] - Monster::addTerritory: 2005 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 118] - EntityApp::createEntity: new SpawnPoint 22
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 119] - EntityApp::createEntity: new SpawnPoint 23
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 217] - EntityApp::createEntity: new Monster 2006
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 218] - Monster::addTerritory: 2006 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 218] - EntityApp::createEntity: new SpawnPoint 24
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 219] - EntityApp::createEntity: new SpawnPoint 25
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 317] - EntityApp::createEntity: new Monster 2007
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 318] - EntityApp::createEntity: new SpawnPoint 26
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 318] - EntityApp::createEntity: new SpawnPoint 27
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 417] - EntityApp::createEntity: new Monster 2008
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 419] - Monster::addTerritory: 2008 range=15, id=1.
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:36 419] - Spaces::createNewSpace: new space(Space) 3.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 419] - EntityApp::createEntity: new Space 28
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 419] - KBEngine::addSpaceGeometryMapping: spaceID=3, respath=spaces/kbengine_unity3d_demo, shouldLoadOnServer=1!
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:05:36 420] - onSpaceData: spaceID=3, key=_mapping, value=spaces/kbengine_unity3d_demo.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:05:36 420] - created space[3] entityID = 28, res = spaces/kbengine_unity3d_demo.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 420] - EntityApp::createEntity: new SpawnPoint 29
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 421] - EntityApp::createEntity: new SpawnPoint 30
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 517] - KBEngine::onLoadedSpaceGeometryMapping: spaceID=3, respath=spaces/kbengine_unity3d_demo!
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:05:36 517] - onSpaceGeometryLoaded: spaceID=3, mapping=spaces/kbengine_unity3d_demo.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:05:36 517] - onAllSpaceGeometryLoaded: spaceID=3, isBootstrap=1, mapping=spaces/kbengine_unity3d_demo.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 518] - EntityApp::createEntity: new Monster 2009
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 518] - Monster::addTerritory: 2009 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 518] - EntityApp::createEntity: new SpawnPoint 31
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 519] - EntityApp::createEntity: new SpawnPoint 32
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 617] - EntityApp::createEntity: new Monster 2010
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 618] - Monster::addTerritory: 2010 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 618] - EntityApp::createEntity: new SpawnPoint 33
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 618] - EntityApp::createEntity: new SpawnPoint 34
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 717] - EntityApp::createEntity: new NPC 2011
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 718] - EntityApp::createEntity: new Monster 2012
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 718] - EntityApp::createEntity: new SpawnPoint 35
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 719] - EntityApp::createEntity: new SpawnPoint 36
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 719] - EntityApp::createEntity: new SpawnPoint 37
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 817] - EntityApp::createEntity: new Monster 2013
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 818] - Monster::addTerritory: 2002 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 818] - Monster::addTerritory: 2013 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 819] - EntityApp::createEntity: new NPC 2014
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 819] - EntityApp::createEntity: new SpawnPoint 38
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 820] - EntityApp::createEntity: new SpawnPoint 39
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 820] - EntityApp::createEntity: new SpawnPoint 40
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 918] - EntityApp::createEntity: new Monster 2015
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 920] - EntityApp::createEntity: new Monster 2016
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 921] - Monster::addTerritory: 2015 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 921] - Monster::addTerritory: 2016 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 922] - EntityApp::createEntity: new SpawnPoint 41
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 922] - EntityApp::createEntity: new SpawnPoint 42
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:36 922] - EntityApp::createEntity: new SpawnPoint 43
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 017] - Monster::addTerritory: 2004 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 018] - EntityApp::createEntity: new Monster 2017
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 018] - EntityApp::createEntity: new Monster 2018
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 019] - Monster::addTerritory: 2017 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 019] - EntityApp::createEntity: new SpawnPoint 44
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 020] - EntityApp::createEntity: new SpawnPoint 45
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 021] - EntityApp::createEntity: new SpawnPoint 46
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 117] - EntityApp::createEntity: new Monster 2019
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 118] - EntityApp::createEntity: new Monster 2020
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 118] - Monster::addTerritory: 2019 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 119] - Monster::addTerritory: 2020 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 119] - EntityApp::createEntity: new SpawnPoint 47
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 120] - EntityApp::createEntity: new SpawnPoint 48
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 120] - EntityApp::createEntity: new SpawnPoint 49
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 217] - EntityApp::createEntity: new Monster 2021
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 218] - EntityApp::createEntity: new Monster 2022
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 219] - Monster::addTerritory: 2021 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 219] - Monster::addTerritory: 2022 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 219] - EntityApp::createEntity: new SpawnPoint 50
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 220] - EntityApp::createEntity: new SpawnPoint 51
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 220] - EntityApp::createEntity: new SpawnPoint 52
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 318] - EntityApp::createEntity: new Monster 2023
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 319] - EntityApp::createEntity: new Monster 2024
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 319] - Monster::addTerritory: 2023 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 319] - Monster::addTerritory: 2007 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 320] - EntityApp::createEntity: new SpawnPoint 53
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 320] - EntityApp::createEntity: new SpawnPoint 54
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 320] - EntityApp::createEntity: new SpawnPoint 55
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 417] - EntityApp::createEntity: new Monster 2025
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 418] - EntityApp::createEntity: new Monster 2026
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 419] - Monster::addTerritory: 2025 range=15, id=1.
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:37 419] - Spaces::createNewSpace: new space(Space) 4.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 419] - EntityApp::createEntity: new Space 56
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 419] - KBEngine::addSpaceGeometryMapping: spaceID=4, respath=spaces/teleportspace, shouldLoadOnServer=1!
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:05:37 419] - onSpaceData: spaceID=4, key=_mapping, value=spaces/teleportspace.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:05:37 419] - created space[4] entityID = 56, res = spaces/teleportspace.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 421] - EntityApp::createEntity: new SpawnPoint 57
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 421] - EntityApp::createEntity: new SpawnPoint 58
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 422] - EntityApp::createEntity: new SpawnPoint 59
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 516] - KBEngine::onLoadedSpaceGeometryMapping: spaceID=4, respath=spaces/teleportspace!
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:05:37 517] - onSpaceGeometryLoaded: spaceID=4, mapping=spaces/teleportspace.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:05:37 517] - onAllSpaceGeometryLoaded: spaceID=4, isBootstrap=1, mapping=spaces/teleportspace.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 517] - EntityApp::createEntity: new Monster 2027
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 518] - EntityApp::createEntity: new Monster 2028
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 519] - EntityApp::createEntity: new SpawnPoint 60
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 519] - EntityApp::createEntity: new SpawnPoint 61
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 617] - EntityApp::createEntity: new Monster 2029
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 618] - EntityApp::createEntity: new Monster 2030
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 619] - EntityApp::createEntity: new SpawnPoint 62
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 619] - EntityApp::createEntity: new SpawnPoint 63
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 717] - EntityApp::createEntity: new NPC 2031
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 717] - EntityApp::createEntity: new Monster 2032
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 718] - Monster::addTerritory: 2012 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 719] - EntityApp::createEntity: new Monster 2033
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 719] - Monster::addTerritory: 2033 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 720] - EntityApp::createEntity: new SpawnPoint 64
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 720] - EntityApp::createEntity: new SpawnPoint 65
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 720] - EntityApp::createEntity: new SpawnPoint 66
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 817] - EntityApp::createEntity: new Monster 2034
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 818] - EntityApp::createEntity: new Monster 2035
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 819] - EntityApp::createEntity: new NPC 2036
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 819] - Monster::addTerritory: 2034 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 820] - Monster::addTerritory: 2035 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 820] - EntityApp::createEntity: new SpawnPoint 67
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 820] - EntityApp::createEntity: new SpawnPoint 68
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 917] - EntityApp::createEntity: new Monster 2037
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 918] - EntityApp::createEntity: new Monster 2038
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 919] - EntityApp::createEntity: new Monster 2039
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 920] - Monster::addTerritory: 2037 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 920] - Monster::addTerritory: 2038 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 920] - EntityApp::createEntity: new SpawnPoint 69
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:37 920] - EntityApp::createEntity: new SpawnPoint 70
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 018] - EntityApp::createEntity: new Monster 2040
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 018] - Monster::addTerritory: 2018 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 019] - EntityApp::createEntity: new Monster 2041
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 020] - EntityApp::createEntity: new Monster 2042
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 021] - Monster::addTerritory: 2040 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 021] - EntityApp::createEntity: new SpawnPoint 71
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 117] - EntityApp::createEntity: new Monster 2043
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 118] - EntityApp::createEntity: new Monster 2044
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 119] - EntityApp::createEntity: new Monster 2045
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 120] - Monster::addTerritory: 2045 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 120] - EntityApp::createEntity: new SpawnPoint 72
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 217] - EntityApp::createEntity: new Monster 2046
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 218] - EntityApp::createEntity: new Monster 2047
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 219] - EntityApp::createEntity: new Monster 2048
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 220] - EntityApp::createEntity: new SpawnPoint 73
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 317] - EntityApp::createEntity: new Monster 2049
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 318] - EntityApp::createEntity: new Monster 2050
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 319] - Monster::addTerritory: 2024 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 319] - EntityApp::createEntity: new Monster 2051
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 320] - Monster::addTerritory: 2049 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 321] - Monster::addTerritory: 2050 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 321] - EntityApp::createEntity: new SpawnPoint 74
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 417] - Monster::addTerritory: 2026 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 418] - EntityApp::createEntity: new Monster 2052
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 419] - EntityApp::createEntity: new Monster 2053
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 420] - EntityApp::createEntity: new Monster 2054
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 421] - Monster::addTerritory: 2053 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 421] - EntityApp::createEntity: new SpawnPoint 75
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 517] - Monster::addTerritory: 2027 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 517] - EntityApp::createEntity: new Monster 2055
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 518] - EntityApp::createEntity: new Monster 2056
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 519] - Monster::addTerritory: 2055 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 519] - Monster::addTerritory: 2028 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 520] - EntityApp::createEntity: new SpawnPoint 76
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 617] - EntityApp::createEntity: new Monster 2057
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 618] - Monster::addTerritory: 2029 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 618] - Monster::addTerritory: 2030 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 619] - Monster::addTerritory: 2057 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 619] - EntityApp::createEntity: new Monster 2058
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 620] - Monster::addTerritory: 2058 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 620] - EntityApp::createEntity: new SpawnPoint 77
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 717] - EntityApp::createEntity: new Monster 2059
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 718] - Monster::addTerritory: 2032 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 719] - EntityApp::createEntity: new Gate 2060
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 719] - EntityApp::createEntity: new Monster 2061
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 720] - Monster::addTerritory: 2061 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 817] - EntityApp::createEntity: new Monster 2062
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 818] - EntityApp::createEntity: new Monster 2063
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 819] - Monster::addTerritory: 2062 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 819] - Monster::addTerritory: 2063 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 917] - Monster::addTerritory: 2039 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 918] - EntityApp::createEntity: new Monster 2064
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 919] - EntityApp::createEntity: new Monster 2065
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:38 919] - Monster::addTerritory: 2065 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:39 017] - EntityApp::createEntity: new Monster 2066
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:39 018] - Monster::addTerritory: 2042 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:39 018] - Monster::addTerritory: 2041 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:39 117] - EntityApp::createEntity: new Monster 2067
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:39 118] - Monster::addTerritory: 2044 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:39 119] - Monster::addTerritory: 2043 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:39 119] - Monster::addTerritory: 2067 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:39 217] - EntityApp::createEntity: new Monster 2068
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:39 218] - Monster::addTerritory: 2046 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:39 218] - Monster::addTerritory: 2047 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:39 218] - Monster::addTerritory: 2048 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:39 317] - Monster::addTerritory: 2051 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:39 318] - EntityApp::createEntity: new Monster 2069
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:39 417] - Monster::addTerritory: 2052 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:39 417] - Monster::addTerritory: 2054 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:39 418] - EntityApp::createEntity: new Monster 2070
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:39 418] - Monster::addTerritory: 2070 range=15, id=1.
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:39 418] - Spaces::createNewSpace: new space(Space) 5.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:39 419] - EntityApp::createEntity: new Space 78
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:39 419] - KBEngine::addSpaceGeometryMapping: spaceID=5, respath=spaces/kbengine_cocos2d_js_demo, shouldLoadOnServer=1!
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:05:39 419] - onSpaceData: spaceID=5, key=_mapping, value=spaces/kbengine_cocos2d_js_demo.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:05:39 419] - created space[6] entityID = 78, res = spaces/kbengine_cocos2d_js_demo.
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:39 420] - NavTileHandle::create: (F:/kbengine/kbengine_demos_assets/res/spaces/kbengine_cocos2d_js_demo/kbengine_cocos2d_js_demo.tmx)
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:39 420] - 	==> map Width : 10
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:39 420] - 	==> map Height : 10
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:39 421] - 	==> tile Width : 32 px
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:39 421] - 	==> tile Height : 32 px
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:39 421] - 	==> findpath direction : 8
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:39 421] - 	==> tileset 00
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:39 421] - 	==> name : tmw_desert_spacing
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:39 421] - 	==> margin : 0
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:39 421] - 	==> spacing : 0
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:39 421] - 	==> image Width : 265
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:39 421] - 	==> image Height : 199
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:39 421] - 	==> image Source : tmw_desert_spacing.png
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:39 421] - 	==> transparent Color (hex) : 
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:39 421] - 	==> tiles Size : 48
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:39 421] - 	==> property: 23 : 3
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:39 517] - Navigation::findNavigation: copy NavTileHandle(0x53f620)!
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:39 517] - KBEngine::onLoadedSpaceGeometryMapping: spaceID=5, respath=spaces/kbengine_cocos2d_js_demo!
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:05:39 517] - onSpaceGeometryLoaded: spaceID=5, mapping=spaces/kbengine_cocos2d_js_demo.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:05:39 517] - onAllSpaceGeometryLoaded: spaceID=5, isBootstrap=1, mapping=spaces/kbengine_cocos2d_js_demo.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:39 518] - EntityApp::createEntity: new Gate 2071
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:39 518] - Monster::addTerritory: 2056 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:39 617] - EntityApp::createEntity: new Gate 2072
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:39 717] - Monster::addTerritory: 2059 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:39 717] - EntityApp::createEntity: new SpawnPoint 79
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:39 817] - EntityApp::createEntity: new SpawnPoint 80
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:39 917] - Monster::addTerritory: 2064 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:39 917] - EntityApp::createEntity: new SpawnPoint 81
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:40 017] - Monster::addTerritory: 2066 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:40 017] - EntityApp::createEntity: new SpawnPoint 82
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:40 117] - EntityApp::createEntity: new SpawnPoint 83
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:40 217] - Monster::addTerritory: 2068 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:40 218] - EntityApp::createEntity: new SpawnPoint 84
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:40 318] - Monster::addTerritory: 2069 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:40 320] - EntityApp::createEntity: new SpawnPoint 85
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:40 417] - Spaces::createNewSpace: new space(Space) 6.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:40 417] - EntityApp::createEntity: new Space 86
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:40 418] - KBEngine::addSpaceGeometryMapping: spaceID=6, respath=spaces/kbengine_ue4_demo, shouldLoadOnServer=1!
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:05:40 418] - onSpaceData: spaceID=6, key=_mapping, value=spaces/kbengine_ue4_demo.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:05:40 419] - created space[7] entityID = 86, res = spaces/kbengine_ue4_demo.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:40 427] - EntityApp::createEntity: new SpawnPoint 87
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:40 420] - NavMeshHandle::create: (F:/kbengine/kbengine_demos_assets/res/spaces/kbengine_ue4_demo/kbengine_ue4_demo.navmesh), layer=0
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:40 445] - 	==> tiles loaded: 2809
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:40 445] - 	==> BVTree nodes: 7770
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:40 445] - 	==> 3885 polygons (13004 vertices)
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:40 445] - 	==> 22447 triangles (10873 vertices)
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:05:40 445] - 	==> 1.34 MB of data (not including pointers)
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:40 519] - KBEngine::onLoadedSpaceGeometryMapping: spaceID=6, respath=spaces/kbengine_ue4_demo!
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:05:40 519] - onSpaceGeometryLoaded: spaceID=6, mapping=spaces/kbengine_ue4_demo.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:05:40 519] - onAllSpaceGeometryLoaded: spaceID=6, isBootstrap=1, mapping=spaces/kbengine_ue4_demo.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:40 522] - EntityApp::createEntity: new SpawnPoint 88
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:40 626] - EntityApp::createEntity: new SpawnPoint 89
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:40 722] - EntityApp::createEntity: new Monster 2073
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:40 726] - Monster::addTerritory: 2073 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:40 728] - EntityApp::createEntity: new SpawnPoint 90
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:40 731] - EntityApp::createEntity: new SpawnPoint 91
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:40 821] - EntityApp::createEntity: new Monster 2074
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:40 824] - Monster::addTerritory: 2074 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:40 826] - EntityApp::createEntity: new SpawnPoint 92
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:40 831] - EntityApp::createEntity: new SpawnPoint 93
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:40 920] - EntityApp::createEntity: new Monster 2075
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:40 924] - Monster::addTerritory: 2075 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:40 926] - EntityApp::createEntity: new SpawnPoint 94
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:40 929] - EntityApp::createEntity: new SpawnPoint 95
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:41 021] - EntityApp::createEntity: new Monster 2076
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:41 024] - Monster::addTerritory: 2076 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:41 027] - EntityApp::createEntity: new SpawnPoint 96
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:41 030] - EntityApp::createEntity: new SpawnPoint 97
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:41 120] - EntityApp::createEntity: new Monster 2077
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:41 124] - EntityApp::createEntity: new SpawnPoint 98
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:41 126] - EntityApp::createEntity: new SpawnPoint 99
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:41 220] - EntityApp::createEntity: new Monster 2078
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:41 223] - Monster::addTerritory: 2078 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:41 225] - EntityApp::createEntity: new SpawnPoint 100
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:41 228] - EntityApp::createEntity: new SpawnPoint 101
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:41 321] - EntityApp::createEntity: new Monster 2079
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:41 324] - EntityApp::createEntity: new SpawnPoint 102
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:41 327] - EntityApp::createEntity: new SpawnPoint 103
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:41 420] - EntityApp::createEntity: new Monster 2080
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:41 424] - EntityApp::createEntity: new SpawnPoint 104
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:41 427] - EntityApp::createEntity: new SpawnPoint 105
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:41 520] - EntityApp::createEntity: new Monster 2081
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:41 524] - Monster::addTerritory: 2081 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:41 526] - EntityApp::createEntity: new SpawnPoint 106
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:41 528] - EntityApp::createEntity: new SpawnPoint 107
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:41 621] - EntityApp::createEntity: new Monster 2082
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:41 625] - Monster::addTerritory: 2082 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:41 627] - EntityApp::createEntity: new SpawnPoint 108
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:41 629] - EntityApp::createEntity: new SpawnPoint 109
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:41 721] - EntityApp::createEntity: new Monster 2083
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:41 726] - EntityApp::createEntity: new NPC 2084
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:41 728] - Monster::addTerritory: 2083 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:41 730] - EntityApp::createEntity: new SpawnPoint 110
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:41 731] - EntityApp::createEntity: new SpawnPoint 111
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:41 821] - EntityApp::createEntity: new Monster 2085
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:41 825] - EntityApp::createEntity: new NPC 2086
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:41 828] - EntityApp::createEntity: new SpawnPoint 112
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:41 830] - EntityApp::createEntity: new SpawnPoint 113
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:41 922] - EntityApp::createEntity: new Monster 2087
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:41 926] - EntityApp::createEntity: new Monster 2088
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:41 929] - Monster::addTerritory: 2088 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:41 932] - EntityApp::createEntity: new SpawnPoint 114
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:41 934] - EntityApp::createEntity: new SpawnPoint 115
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 023] - EntityApp::createEntity: new Monster 2089
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 028] - EntityApp::createEntity: new Monster 2090
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 032] - Monster::addTerritory: 2089 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 034] - EntityApp::createEntity: new SpawnPoint 116
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 036] - EntityApp::createEntity: new SpawnPoint 117
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 120] - Monster::addTerritory: 2077 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 124] - EntityApp::createEntity: new Monster 2091
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 133] - EntityApp::createEntity: new Monster 2092
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 138] - EntityApp::createEntity: new SpawnPoint 118
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 140] - EntityApp::createEntity: new SpawnPoint 119
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 217] - EntityApp::createEntity: new Monster 2093
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 218] - EntityApp::createEntity: new Monster 2094
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 219] - Monster::addTerritory: 2093 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 219] - Monster::addTerritory: 2094 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 220] - EntityApp::createEntity: new SpawnPoint 120
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 220] - EntityApp::createEntity: new SpawnPoint 121
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 317] - EntityApp::createEntity: new Monster 2095
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 318] - EntityApp::createEntity: new Monster 2096
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 318] - Monster::addTerritory: 2095 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 319] - Monster::addTerritory: 2079 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 319] - EntityApp::createEntity: new SpawnPoint 122
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 319] - EntityApp::createEntity: new SpawnPoint 123
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 417] - EntityApp::createEntity: new Monster 2097
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 418] - EntityApp::createEntity: new Monster 2098
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 419] - Monster::addTerritory: 2080 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 419] - Monster::addTerritory: 2098 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 419] - EntityApp::createEntity: new SpawnPoint 124
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 420] - EntityApp::createEntity: new SpawnPoint 125
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 517] - EntityApp::createEntity: new Monster 2099
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 518] - EntityApp::createEntity: new Monster 2100
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 519] - EntityApp::createEntity: new SpawnPoint 126
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 519] - EntityApp::createEntity: new SpawnPoint 127
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 617] - EntityApp::createEntity: new Monster 2101
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 618] - EntityApp::createEntity: new Monster 2102
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 618] - EntityApp::createEntity: new SpawnPoint 128
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 619] - EntityApp::createEntity: new SpawnPoint 129
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 717] - EntityApp::createEntity: new Monster 2103
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 718] - EntityApp::createEntity: new Monster 2104
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 719] - Monster::addTerritory: 2104 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 719] - EntityApp::createEntity: new SpawnPoint 130
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 817] - Monster::addTerritory: 2085 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 817] - EntityApp::createEntity: new Monster 2105
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 818] - EntityApp::createEntity: new Monster 2106
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 819] - Monster::addTerritory: 2105 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 819] - EntityApp::createEntity: new SpawnPoint 131
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 917] - EntityApp::createEntity: new Monster 2107
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 918] - Monster::addTerritory: 2087 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 918] - EntityApp::createEntity: new Monster 2108
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 919] - Monster::addTerritory: 2107 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:42 919] - EntityApp::createEntity: new SpawnPoint 132
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 018] - EntityApp::createEntity: new Monster 2109
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 018] - Monster::addTerritory: 2090 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 019] - Monster::addTerritory: 2109 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 019] - EntityApp::createEntity: new Monster 2110
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 020] - Monster::addTerritory: 2110 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 020] - EntityApp::createEntity: new SpawnPoint 133
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 117] - EntityApp::createEntity: new Monster 2111
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 118] - Monster::addTerritory: 2092 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 118] - Monster::addTerritory: 2111 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 119] - Monster::addTerritory: 2091 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 119] - EntityApp::createEntity: new Monster 2112
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 120] - EntityApp::createEntity: new SpawnPoint 134
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 217] - EntityApp::createEntity: new Monster 2113
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 218] - EntityApp::createEntity: new Monster 2114
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 219] - Monster::addTerritory: 2113 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 219] - EntityApp::createEntity: new SpawnPoint 135
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 317] - Monster::addTerritory: 2096 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 317] - EntityApp::createEntity: new Monster 2115
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 318] - EntityApp::createEntity: new Monster 2116
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 319] - Monster::addTerritory: 2115 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 319] - EntityApp::createEntity: new SpawnPoint 136
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 417] - EntityApp::createEntity: new Monster 2117
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 418] - EntityApp::createEntity: new Monster 2118
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 419] - Monster::addTerritory: 2117 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 419] - Monster::addTerritory: 2118 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 419] - Monster::addTerritory: 2097 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 419] - EntityApp::createEntity: new SpawnPoint 137
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 522] - EntityApp::createEntity: new Monster 2119
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 527] - Monster::addTerritory: 2100 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 530] - EntityApp::createEntity: new Gate 2120
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 533] - Monster::addTerritory: 2119 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 534] - Monster::addTerritory: 2099 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 536] - EntityApp::createEntity: new SpawnPoint 138
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 621] - EntityApp::createEntity: new Monster 2121
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 625] - EntityApp::createEntity: new Gate 2122
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 628] - Monster::addTerritory: 2101 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 630] - Monster::addTerritory: 2102 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 632] - EntityApp::createEntity: new SpawnPoint 139
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 722] - Monster::addTerritory: 2103 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 725] - EntityApp::createEntity: new Monster 2123
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 730] - Monster::addTerritory: 2123 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 733] - EntityApp::createEntity: new SpawnPoint 140
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 821] - EntityApp::createEntity: new Monster 2124
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 825] - Monster::addTerritory: 2106 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 828] - Monster::addTerritory: 2124 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 830] - EntityApp::createEntity: new SpawnPoint 141
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 922] - Monster::addTerritory: 2108 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 925] - EntityApp::createEntity: new Monster 2125
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 930] - Monster::addTerritory: 2125 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:43 932] - EntityApp::createEntity: new SpawnPoint 142
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:44 017] - EntityApp::createEntity: new Monster 2126
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:44 018] - Monster::addTerritory: 2126 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:44 018] - EntityApp::createEntity: new SpawnPoint 143
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:44 117] - Monster::addTerritory: 2112 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:44 118] - EntityApp::createEntity: new Monster 2127
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:44 118] - EntityApp::createEntity: new SpawnPoint 144
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:44 217] - Monster::addTerritory: 2114 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:44 218] - EntityApp::createEntity: new Monster 2128
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:44 218] - Monster::addTerritory: 2128 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:44 218] - EntityApp::createEntity: new SpawnPoint 145
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:44 317] - Monster::addTerritory: 2116 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:44 318] - EntityApp::createEntity: new Monster 2129
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:44 318] - EntityApp::createEntity: new SpawnPoint 146
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:44 418] - EntityApp::createEntity: new Monster 2130
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:44 418] - Monster::addTerritory: 2130 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:44 418] - EntityApp::createEntity: new SpawnPoint 147
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:44 518] - EntityApp::createEntity: new Monster 2131
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:44 519] - EntityApp::createEntity: new SpawnPoint 148
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:44 617] - EntityApp::createEntity: new Monster 2132
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:44 618] - Monster::addTerritory: 2132 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:44 619] - Monster::addTerritory: 2121 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:44 619] - EntityApp::createEntity: new SpawnPoint 149
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:44 722] - EntityApp::createEntity: new Monster 2133
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:44 726] - EntityApp::createEntity: new SpawnPoint 150
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:44 822] - EntityApp::createEntity: new Monster 2134
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:44 827] - Monster::addTerritory: 2134 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:44 829] - EntityApp::createEntity: new SpawnPoint 151
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:44 925] - EntityApp::createEntity: new Monster 2135
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:44 930] - Monster::addTerritory: 2135 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:44 932] - EntityApp::createEntity: new SpawnPoint 152
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:45 020] - EntityApp::createEntity: new Monster 2136
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:45 025] - Monster::addTerritory: 2136 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:45 027] - EntityApp::createEntity: new SpawnPoint 153
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:45 120] - Monster::addTerritory: 2127 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:45 123] - EntityApp::createEntity: new Monster 2137
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:45 127] - Monster::addTerritory: 2137 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:45 129] - EntityApp::createEntity: new SpawnPoint 154
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:45 222] - EntityApp::createEntity: new Monster 2138
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:45 226] - EntityApp::createEntity: new SpawnPoint 155
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:45 322] - EntityApp::createEntity: new Monster 2139
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:45 326] - Monster::addTerritory: 2129 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:45 327] - Monster::addTerritory: 2139 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:45 329] - EntityApp::createEntity: new SpawnPoint 156
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:45 422] - EntityApp::createEntity: new Monster 2140
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:45 427] - EntityApp::createEntity: new SpawnPoint 157
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:45 521] - Monster::addTerritory: 2131 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:45 524] - EntityApp::createEntity: new Monster 2141
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:45 528] - EntityApp::createEntity: new SpawnPoint 158
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:45 622] - EntityApp::createEntity: new Monster 2142
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:45 626] - EntityApp::createEntity: new SpawnPoint 159
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:45 721] - Monster::addTerritory: 2133 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:45 724] - EntityApp::createEntity: new Monster 2143
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:45 728] - EntityApp::createEntity: new SpawnPoint 160
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:45 822] - EntityApp::createEntity: new Monster 2144
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:45 826] - EntityApp::createEntity: new SpawnPoint 161
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:45 921] - EntityApp::createEntity: new Monster 2145
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:45 925] - EntityApp::createEntity: new SpawnPoint 162
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:46 022] - EntityApp::createEntity: new Monster 2146
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:46 024] - EntityApp::createEntity: new SpawnPoint 163
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:46 123] - EntityApp::createEntity: new Monster 2147
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:46 127] - Monster::addTerritory: 2147 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:46 129] - EntityApp::createEntity: new SpawnPoint 164
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:46 221] - Monster::addTerritory: 2138 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:46 226] - EntityApp::createEntity: new Monster 2148
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:46 232] - Monster::addTerritory: 2148 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:46 236] - EntityApp::createEntity: new SpawnPoint 165
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:46 321] - EntityApp::createEntity: new Monster 2149
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:46 326] - EntityApp::createEntity: new SpawnPoint 166
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:46 421] - Monster::addTerritory: 2140 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:46 424] - EntityApp::createEntity: new Monster 2150
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:46 429] - Monster::addTerritory: 2150 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:46 431] - EntityApp::createEntity: new SpawnPoint 167
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:46 520] - Monster::addTerritory: 2141 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:46 523] - EntityApp::createEntity: new Monster 2151
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:46 526] - Monster::addTerritory: 2151 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:46 528] - EntityApp::createEntity: new SpawnPoint 168
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:46 622] - EntityApp::createEntity: new Monster 2152
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:46 625] - Monster::addTerritory: 2142 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:46 627] - Monster::addTerritory: 2152 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:46 629] - EntityApp::createEntity: new SpawnPoint 169
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:46 721] - Monster::addTerritory: 2143 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:46 725] - EntityApp::createEntity: new Monster 2153
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:46 730] - Monster::addTerritory: 2153 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:46 732] - EntityApp::createEntity: new SpawnPoint 170
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:46 821] - Monster::addTerritory: 2144 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:46 824] - EntityApp::createEntity: new Monster 2154
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:46 828] - EntityApp::createEntity: new SpawnPoint 171
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:46 920] - EntityApp::createEntity: new Monster 2155
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:46 926] - Monster::addTerritory: 2145 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:46 928] - EntityApp::createEntity: new SpawnPoint 172
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:47 023] - EntityApp::createEntity: new Monster 2156
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:47 027] - Monster::addTerritory: 2146 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:47 030] - EntityApp::createEntity: new SpawnPoint 173
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:47 121] - EntityApp::createEntity: new Monster 2157
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:47 128] - Monster::addTerritory: 2157 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:47 129] - EntityApp::createEntity: new SpawnPoint 174
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:47 226] - EntityApp::createEntity: new Monster 2158
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:47 323] - Monster::addTerritory: 2149 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:47 334] - EntityApp::createEntity: new Monster 2159
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:47 421] - EntityApp::createEntity: new Monster 2160
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:47 522] - EntityApp::createEntity: new Monster 2161
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:47 621] - EntityApp::createEntity: new Monster 2162
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:47 625] - Monster::addTerritory: 2162 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:47 722] - EntityApp::createEntity: new Monster 2163
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:47 822] - EntityApp::createEntity: new Monster 2164
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:47 826] - Monster::addTerritory: 2154 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:47 829] - Monster::addTerritory: 2164 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:47 921] - Monster::addTerritory: 2155 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:47 924] - EntityApp::createEntity: new Monster 2165
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:48 023] - EntityApp::createEntity: new Monster 2166
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:48 027] - Monster::addTerritory: 2156 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:05:48 125] - EntityApp::createEntity: new Monster 2167
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:48 220] - Monster::addTerritory: 2158 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:48 321] - Monster::addTerritory: 2159 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:48 419] - Monster::addTerritory: 2160 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:48 520] - Monster::addTerritory: 2161 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:48 719] - Monster::addTerritory: 2163 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:48 920] - Monster::addTerritory: 2165 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:49 020] - Monster::addTerritory: 2166 range=15, id=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:05:49 121] - Monster::addTerritory: 2167 range=15, id=1.
+    INFO    cellapp01 49527 8001  [2017-06-14 18:07:19 018] - EntityApp::createEntity: new Avatar 177
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:19 027] - Monster::onWitnessed: 2068 isWitnessed=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:19 028] - Monster::onWitnessed: 2065 isWitnessed=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:19 028] - Monster::onWitnessed: 2057 isWitnessed=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:19 029] - Monster::onWitnessed: 2048 isWitnessed=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:19 029] - Monster::onWitnessed: 2063 isWitnessed=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:19 029] - Monster::onWitnessed: 2042 isWitnessed=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:19 030] - Monster::onWitnessed: 2056 isWitnessed=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:19 030] - Monster::onWitnessed: 2059 isWitnessed=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:19 031] - Monster::onWitnessed: 2051 isWitnessed=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:19 031] - Monster::onWitnessed: 2045 isWitnessed=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:19 032] - Monster::onWitnessed: 2038 isWitnessed=1.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:07:19 032] - NPC::onWitnessed: 2036 isWitnessed=1.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:07:19 032] - NPC::onWitnessed: 2031 isWitnessed=1.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:07:19 033] - Gate::onWitnessed: 2072 isWitnessed=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:19 033] - Monster::onWitnessed: 2066 isWitnessed=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:19 033] - Monster::onWitnessed: 2067 isWitnessed=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:19 033] - Monster::onWitnessed: 2069 isWitnessed=1.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:07:19 034] - Gate::onWitnessed: 2071 isWitnessed=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:19 034] - Monster::onWitnessed: 2070 isWitnessed=1.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:07:19 034] - Avatar::onGetWitness: 177.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:07:19 034] - Space::onEnter space[3] entityID = 177.
+ WARNING    cellapp01 49527 8001  [2017-06-14 18:07:19 038] - Witness::update(177): sendToClient 2003 Bytes.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:07:19 218] - SkillBox::requestPull: 177 skills=7
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:22 219] - Monster::onWitnessed: 2052 isWitnessed=1.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:07:23 220] - Monster::onEnterTrap: 2038 entityEntering=(Avatar)177, range_xz=15.0, range_y=0.0, controllerID=1, userarg=0
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:07:23 220] - Monster::addEnemy: 2038 entity=177, enmity=0
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:23 223] - Monster:onStateChanged_: 2038 oldstate=0 to newstate=3, forbids=[0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0], subState=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:24 021] - Monster::delTerritory: 2038
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:27 021] - Monster::checkInTerritory: 2038 is False.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:07:27 021] - Monster::removeEnemy: 2038 entity=177
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:27 021] - Monster::onLoseTarget: 2038 target=177, enemyLogSize=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:27 021] - Monster::onEnemyEmpty: 2038
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:27 024] - Monster:onStateChanged_: 2038 oldstate=3 to newstate=0, forbids=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], subState=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:27 024] - Monster::backSpawnPos: 2038, pos=Vector3(-132.929901, 1.500000, -150.921997), ref=false, speed=6.500000.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:28 022] - Monster::addTerritory: 2038 range=15, id=7.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:31 617] - Monster::onLeaveTrap: 2038 entityLeaving=(Avatar)177.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:07:32 418] - Monster::onEnterTrap: 2038 entityEntering=(Avatar)177, range_xz=15.0, range_y=0.0, controllerID=7, userarg=0
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:07:32 418] - Monster::addEnemy: 2038 entity=177, enmity=0
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:32 421] - Monster:onStateChanged_: 2038 oldstate=0 to newstate=3, forbids=[0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0], subState=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:32 422] - Monster::onLeaveTrap: 2038 entityLeaving=(Avatar)177.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:32 519] - Monster::onLeaveTrap: 2038 entityLeaving=(Avatar)177.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:32 618] - Monster::onLeaveTrap: 2038 entityLeaving=(Avatar)177.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:32 918] - Monster::onLeaveTrap: 2038 entityLeaving=(Avatar)177.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:33 019] - Monster::delTerritory: 2038
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:07:37 023] - Spell::spellTarget(2038):skillID=1, targetID=177
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:07:37 023] - Avatar::addEnemy: 177 entity=2038, enmity=4
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:07:37 024] - Avatar::recvDamage: 177 attackerID=2038, skillID=1, damageType=0, damage=4
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:07:38 020] - Spell::spellTarget(2038):skillID=1, targetID=177
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:07:38 020] - Avatar::recvDamage: 177 attackerID=2038, skillID=1, damageType=0, damage=7
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:07:39 024] - Spell::spellTarget(2038):skillID=1, targetID=177
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:07:39 025] - Avatar::recvDamage: 177 attackerID=2038, skillID=1, damageType=0, damage=9
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:43 118] - Monster::onWitnessed: 2070 isWitnessed=1.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:07:44 920] - Gate::onWitnessed: 2071 isWitnessed=0.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:07:44 920] - Gate::onWitnessed: 2072 isWitnessed=0.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:07:45 020] - Spell::spellTarget(2038):skillID=1, targetID=177
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:07:45 021] - Avatar::recvDamage: 177 attackerID=2038, skillID=1, damageType=0, damage=9
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:45 318] - Monster::onWitnessed: 2045 isWitnessed=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:46 023] - Monster::onWitnessed: 2063 isWitnessed=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:46 717] - Monster::onWitnessed: 2066 isWitnessed=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:49 920] - Monster::onWitnessed: 2052 isWitnessed=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:49 920] - Monster::onWitnessed: 2065 isWitnessed=0.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:07:50 022] - Gate::onWitnessed: 2071 isWitnessed=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:51 618] - Monster::onWitnessed: 2065 isWitnessed=1.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:07:54 417] - Gate::onWitnessed: 2072 isWitnessed=1.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:07:55 418] - Monster::onEnterTrap: 2066 entityEntering=(Avatar)177, range_xz=15.0, range_y=0.0, controllerID=1, userarg=0
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:07:55 419] - Monster::addEnemy: 2066 entity=177, enmity=0
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:55 421] - Monster:onStateChanged_: 2066 oldstate=0 to newstate=3, forbids=[0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0], subState=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:55 718] - Monster::delTerritory: 2066
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:56 020] - Monster::checkInTerritory: 2038 is False.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:07:56 020] - Monster::removeEnemy: 2038 entity=177
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:56 021] - Monster::onLoseTarget: 2038 target=177, enemyLogSize=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:56 021] - Monster::onEnemyEmpty: 2038
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:56 023] - Monster:onStateChanged_: 2038 oldstate=3 to newstate=0, forbids=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], subState=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:56 023] - Monster::backSpawnPos: 2038, pos=Vector3(-132.929901, 1.500000, -150.921997), ref=false, speed=6.500000.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:07:56 418] - Monster::onEnterTrap: 2068 entityEntering=(Avatar)177, range_xz=15.0, range_y=0.0, controllerID=1, userarg=0
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:07:56 418] - Monster::addEnemy: 2068 entity=177, enmity=0
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:56 420] - Monster:onStateChanged_: 2068 oldstate=0 to newstate=3, forbids=[0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0], subState=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:57 019] - Monster::addTerritory: 2038 range=15, id=28.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:57 020] - Monster::delTerritory: 2068
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:07:57 418] - Monster::onEnterTrap: 2067 entityEntering=(Avatar)177, range_xz=15.0, range_y=0.0, controllerID=1, userarg=0
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:07:57 418] - Monster::addEnemy: 2067 entity=177, enmity=0
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:57 421] - Monster:onStateChanged_: 2067 oldstate=0 to newstate=3, forbids=[0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0], subState=0.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:07:58 020] - Spell::spellTarget(2068):skillID=1, targetID=177
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:07:58 020] - Avatar::addEnemy: 177 entity=2068, enmity=0
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:07:58 020] - Avatar::recvDamage: 177 attackerID=2068, skillID=1, damageType=0, damage=0
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:58 023] - Monster::delTerritory: 2067
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:07:59 818] - Monster::onEnterTrap: 2057 entityEntering=(Avatar)177, range_xz=15.0, range_y=0.0, controllerID=1, userarg=0
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:07:59 818] - Monster::addEnemy: 2057 entity=177, enmity=0
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:59 820] - Monster:onStateChanged_: 2057 oldstate=0 to newstate=3, forbids=[0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0], subState=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:07:59 921] - Monster::onWitnessed: 2045 isWitnessed=0.
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:07:59 921] - WitnessedTimeoutHandler::handleTimeout: witnesseds is empty, timer is canceled!
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:00 020] - Monster::delTerritory: 2057
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:05 018] - Monster::checkInTerritory: 2057 is False.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:05 018] - Monster::removeEnemy: 2057 entity=177
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:05 019] - Monster::onLoseTarget: 2057 target=177, enemyLogSize=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:05 019] - Monster::onEnemyEmpty: 2057
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:05 021] - Monster:onStateChanged_: 2057 oldstate=3 to newstate=0, forbids=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], subState=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:05 022] - Monster::backSpawnPos: 2057, pos=Vector3(-69.049957, 1.500000, -175.957031), ref=false, speed=6.500000.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:06 019] - Monster::addTerritory: 2057 range=15, id=13.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:07 718] - Monster::onEnterTrap: 2070 entityEntering=(Avatar)177, range_xz=15.0, range_y=0.0, controllerID=1, userarg=0
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:07 718] - Monster::addEnemy: 2070 entity=177, enmity=0
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:07 721] - Monster:onStateChanged_: 2070 oldstate=0 to newstate=3, forbids=[0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0], subState=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:08 021] - Monster::checkInTerritory: 2068 is False.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:08 021] - Monster::removeEnemy: 2068 entity=177
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:08 021] - Monster::onLoseTarget: 2068 target=177, enemyLogSize=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:08 021] - Monster::onEnemyEmpty: 2068
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:08 023] - Monster:onStateChanged_: 2068 oldstate=3 to newstate=0, forbids=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], subState=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:08 023] - Monster::backSpawnPos: 2068, pos=Vector3(-73.323441, 1.500000, -160.713318), ref=false, speed=6.500000.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:08 118] - Monster::delTerritory: 2070
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:09 020] - Monster::addTerritory: 2068 range=15, id=17.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:09 718] - Monster::checkInTerritory: 2066 is False.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:09 718] - Monster::removeEnemy: 2066 entity=177
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:09 718] - Monster::onLoseTarget: 2066 target=177, enemyLogSize=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:09 718] - Monster::onEnemyEmpty: 2066
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:09 721] - Monster:onStateChanged_: 2066 oldstate=3 to newstate=0, forbids=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], subState=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:09 722] - Monster::backSpawnPos: 2066, pos=Vector3(-61.230453, 1.500000, -144.657440), ref=false, speed=6.500000.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:10 718] - Monster::addTerritory: 2066 range=15, id=22.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:11 019] - Monster::checkInTerritory: 2067 is False.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:11 019] - Monster::removeEnemy: 2067 entity=177
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:11 020] - Monster::onLoseTarget: 2067 target=177, enemyLogSize=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:11 020] - Monster::onEnemyEmpty: 2067
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:11 024] - Monster:onStateChanged_: 2067 oldstate=3 to newstate=0, forbids=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], subState=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:11 024] - Monster::backSpawnPos: 2067, pos=Vector3(-71.636917, 1.500000, -140.565033), ref=false, speed=6.500000.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:12 019] - Monster::addTerritory: 2067 range=15, id=21.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:13 119] - Monster::onLeaveTrap: 2067 entityLeaving=(Avatar)177.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:18 119] - Spell::spellTarget(2070):skillID=1, targetID=177
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:18 120] - Avatar::addEnemy: 177 entity=2070, enmity=9
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:18 120] - Avatar::recvDamage: 177 attackerID=2070, skillID=1, damageType=0, damage=9
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:18 720] - Monster::onWitnessed: 2042 isWitnessed=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:18 720] - Monster::onWitnessed: 2051 isWitnessed=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:18 720] - Monster::onWitnessed: 2056 isWitnessed=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:18 720] - Monster::onWitnessed: 2059 isWitnessed=0.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:19 118] - Spell::spellTarget(2070):skillID=1, targetID=177
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:19 118] - Avatar::recvDamage: 177 attackerID=2070, skillID=1, damageType=0, damage=8
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:20 118] - Spell::spellTarget(2070):skillID=1, targetID=177
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:20 118] - Avatar::recvDamage: 177 attackerID=2070, skillID=1, damageType=0, damage=6
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:20 619] - Monster::onWitnessed: 2063 isWitnessed=1.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:21 118] - Spell::spellTarget(2070):skillID=1, targetID=177
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:21 119] - Avatar::recvDamage: 177 attackerID=2070, skillID=1, damageType=0, damage=0
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:22 118] - Spell::spellTarget(2070):skillID=1, targetID=177
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:22 119] - Avatar::recvDamage: 177 attackerID=2070, skillID=1, damageType=0, damage=1
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:23 719] - Monster::onWitnessed: 2048 isWitnessed=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:24 818] - Monster::onWitnessed: 2038 isWitnessed=1.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:28 119] - Spell::spellTarget(2070):skillID=1, targetID=177
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:28 120] - Avatar::recvDamage: 177 attackerID=2070, skillID=1, damageType=0, damage=8
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:08:28 719] - WitnessedTimeoutHandler::handleTimeout: witnesseds is empty, timer is canceled!
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:29 118] - Spell::spellTarget(2070):skillID=1, targetID=177
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:29 119] - Avatar::recvDamage: 177 attackerID=2070, skillID=1, damageType=0, damage=6
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:30 118] - Spell::spellTarget(2070):skillID=1, targetID=177
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:30 119] - Avatar::recvDamage: 177 attackerID=2070, skillID=1, damageType=0, damage=1
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:31 117] - Spell::spellTarget(2070):skillID=1, targetID=177
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:31 118] - Avatar::recvDamage: 177 attackerID=2070, skillID=1, damageType=0, damage=5
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:32 118] - Spell::spellTarget(2070):skillID=1, targetID=177
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:32 119] - Avatar::recvDamage: 177 attackerID=2070, skillID=1, damageType=0, damage=2
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:33 118] - Spell::spellTarget(2070):skillID=1, targetID=177
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:33 119] - Avatar::recvDamage: 177 attackerID=2070, skillID=1, damageType=0, damage=7
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:34 118] - Spell::spellTarget(2070):skillID=1, targetID=177
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:34 119] - Avatar::recvDamage: 177 attackerID=2070, skillID=1, damageType=0, damage=3
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:35 118] - Spell::spellTarget(2070):skillID=1, targetID=177
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:35 119] - Avatar::recvDamage: 177 attackerID=2070, skillID=1, damageType=0, damage=8
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:36 118] - Spell::spellTarget(2070):skillID=1, targetID=177
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:36 119] - Avatar::recvDamage: 177 attackerID=2070, skillID=1, damageType=0, damage=9
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:36 120] - Avatar::die: 177 i die. killerID:2070.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:37 118] - Monster::removeEnemy: 2070 entity=177
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:37 118] - Monster::onLoseTarget: 2070 target=177, enemyLogSize=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:37 119] - Monster::onEnemyEmpty: 2070
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:37 122] - Monster:onStateChanged_: 2070 oldstate=3 to newstate=0, forbids=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], subState=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:37 122] - Monster::backSpawnPos: 2070, pos=Vector3(-64.340378, 1.500000, -121.070831), ref=false, speed=5.000000.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:38 118] - Monster::addTerritory: 2070 range=15, id=24.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:41 618] - Monster::onWitnessed: 2048 isWitnessed=1.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:42 818] - Avatar::relive: 177, type=1.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:43 818] - Monster::onEnterTrap: 2069 entityEntering=(Avatar)177, range_xz=15.0, range_y=0.0, controllerID=1, userarg=0
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:43 818] - Monster::addEnemy: 2069 entity=177, enmity=0
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:43 821] - Monster:onStateChanged_: 2069 oldstate=0 to newstate=3, forbids=[0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0], subState=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:44 019] - Monster::delTerritory: 2069
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:44 021] - Monster::onEnterTrap: 2070 entityEntering=(Avatar)177, range_xz=15.0, range_y=0.0, controllerID=24, userarg=0
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:44 021] - Monster::addEnemy: 2070 entity=177, enmity=0
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:44 023] - Monster:onStateChanged_: 2070 oldstate=0 to newstate=3, forbids=[0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0], subState=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:44 118] - Monster::delTerritory: 2070
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:45 021] - Monster::onWitnessed: 2042 isWitnessed=1.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:46 021] - Monster::onEnterTrap: 2068 entityEntering=(Avatar)177, range_xz=15.0, range_y=0.0, controllerID=17, userarg=0
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:46 022] - Monster::addEnemy: 2068 entity=177, enmity=0
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:46 025] - Monster:onStateChanged_: 2068 oldstate=0 to newstate=3, forbids=[0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0], subState=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:46 418] - Monster::onWitnessed: 2056 isWitnessed=1.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:47 019] - Monster::delTerritory: 2068
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:47 419] - Monster::onWitnessed: 2059 isWitnessed=1.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:48 021] - Spell::spellTarget(2068):skillID=1, targetID=177
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:48 021] - Avatar::recvDamage: 177 attackerID=2068, skillID=1, damageType=0, damage=9
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:48 619] - Monster::onWitnessed: 2051 isWitnessed=1.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:49 718] - Monster::onEnterTrap: 2067 entityEntering=(Avatar)177, range_xz=15.0, range_y=0.0, controllerID=21, userarg=0
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:49 718] - Monster::addEnemy: 2067 entity=177, enmity=0
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:49 722] - Monster:onStateChanged_: 2067 oldstate=0 to newstate=3, forbids=[0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0], subState=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:50 019] - Monster::delTerritory: 2067
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:50 022] - Spell::spellTarget(2069):skillID=1, targetID=177
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:50 023] - Avatar::addEnemy: 177 entity=2069, enmity=9
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:50 026] - Avatar::recvDamage: 177 attackerID=2069, skillID=1, damageType=0, damage=9
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:50 121] - Spell::spellTarget(2070):skillID=1, targetID=177
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:50 122] - Avatar::recvDamage: 177 attackerID=2070, skillID=1, damageType=0, damage=0
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:51 018] - Spell::spellTarget(2069):skillID=1, targetID=177
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:51 019] - Avatar::recvDamage: 177 attackerID=2069, skillID=1, damageType=0, damage=0
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:51 120] - Spell::spellTarget(2070):skillID=1, targetID=177
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:51 121] - Avatar::recvDamage: 177 attackerID=2070, skillID=1, damageType=0, damage=9
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:52 019] - Spell::spellTarget(2068):skillID=1, targetID=177
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:52 020] - Avatar::recvDamage: 177 attackerID=2068, skillID=1, damageType=0, damage=1
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:52 024] - Spell::spellTarget(2069):skillID=1, targetID=177
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:52 024] - Avatar::recvDamage: 177 attackerID=2069, skillID=1, damageType=0, damage=2
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:52 119] - Spell::spellTarget(2070):skillID=1, targetID=177
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:52 119] - Avatar::recvDamage: 177 attackerID=2070, skillID=1, damageType=0, damage=7
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:53 019] - Spell::spellTarget(2067):skillID=1, targetID=177
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:53 020] - Avatar::addEnemy: 177 entity=2067, enmity=2
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:53 020] - Avatar::recvDamage: 177 attackerID=2067, skillID=1, damageType=0, damage=2
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:53 022] - Spell::spellTarget(2069):skillID=1, targetID=177
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:53 022] - Avatar::recvDamage: 177 attackerID=2069, skillID=1, damageType=0, damage=9
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:53 118] - Spell::spellTarget(2070):skillID=1, targetID=177
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:53 119] - Avatar::recvDamage: 177 attackerID=2070, skillID=1, damageType=0, damage=8
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:54 019] - Spell::spellTarget(2068):skillID=1, targetID=177
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:54 020] - Avatar::recvDamage: 177 attackerID=2068, skillID=1, damageType=0, damage=0
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:54 020] - Spell::spellTarget(2069):skillID=1, targetID=177
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:54 021] - Avatar::recvDamage: 177 attackerID=2069, skillID=1, damageType=0, damage=8
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:54 023] - Spell::spellTarget(2067):skillID=1, targetID=177
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:54 023] - Avatar::recvDamage: 177 attackerID=2067, skillID=1, damageType=0, damage=10
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:54 119] - Spell::spellTarget(2070):skillID=1, targetID=177
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:54 120] - Avatar::recvDamage: 177 attackerID=2070, skillID=1, damageType=0, damage=8
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:54 122] - Monster::onEnterTrap: 2066 entityEntering=(Avatar)177, range_xz=15.0, range_y=0.0, controllerID=22, userarg=0
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:54 123] - Monster::addEnemy: 2066 entity=177, enmity=0
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:54 125] - Monster:onStateChanged_: 2066 oldstate=0 to newstate=3, forbids=[0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0], subState=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:54 717] - Monster::delTerritory: 2066
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:55 019] - Spell::spellTarget(2069):skillID=1, targetID=177
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:55 019] - Avatar::recvDamage: 177 attackerID=2069, skillID=1, damageType=0, damage=2
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:55 022] - Spell::spellTarget(2067):skillID=1, targetID=177
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:55 022] - Avatar::recvDamage: 177 attackerID=2067, skillID=1, damageType=0, damage=5
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:55 024] - Spell::spellTarget(2068):skillID=1, targetID=177
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:55 025] - Avatar::recvDamage: 177 attackerID=2068, skillID=1, damageType=0, damage=7
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:55 118] - Spell::spellTarget(2070):skillID=1, targetID=177
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:55 119] - Avatar::recvDamage: 177 attackerID=2070, skillID=1, damageType=0, damage=7
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:55 119] - Avatar::die: 177 i die. killerID:2070.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:55 718] - Monster::removeEnemy: 2066 entity=177
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:55 719] - Monster::onLoseTarget: 2066 target=177, enemyLogSize=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:55 719] - Monster::onEnemyEmpty: 2066
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:55 723] - Monster:onStateChanged_: 2066 oldstate=3 to newstate=0, forbids=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], subState=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:55 723] - Monster::backSpawnPos: 2066, pos=Vector3(-61.230453, 1.500000, -144.657440), ref=false, speed=6.500000.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:56 020] - Monster::removeEnemy: 2068 entity=177
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:56 020] - Monster::onLoseTarget: 2068 target=177, enemyLogSize=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:56 020] - Monster::onEnemyEmpty: 2068
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:56 024] - Monster:onStateChanged_: 2068 oldstate=3 to newstate=0, forbids=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], subState=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:56 024] - Monster::backSpawnPos: 2068, pos=Vector3(-73.323441, 1.500000, -160.713318), ref=false, speed=5.000000.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:56 025] - Monster::removeEnemy: 2067 entity=177
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:56 025] - Monster::onLoseTarget: 2067 target=177, enemyLogSize=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:56 025] - Monster::onEnemyEmpty: 2067
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:56 029] - Monster:onStateChanged_: 2067 oldstate=3 to newstate=0, forbids=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], subState=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:56 030] - Monster::backSpawnPos: 2067, pos=Vector3(-71.636917, 1.500000, -140.565033), ref=false, speed=5.000000.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:56 030] - Monster::removeEnemy: 2069 entity=177
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:56 031] - Monster::onLoseTarget: 2069 target=177, enemyLogSize=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:56 031] - Monster::onEnemyEmpty: 2069
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:56 032] - Monster:onStateChanged_: 2069 oldstate=3 to newstate=0, forbids=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], subState=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:56 032] - Monster::backSpawnPos: 2069, pos=Vector3(-53.436718, 1.500000, -125.980476), ref=false, speed=5.000000.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:08:56 118] - Monster::removeEnemy: 2070 entity=177
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:56 119] - Monster::onLoseTarget: 2070 target=177, enemyLogSize=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:56 119] - Monster::onEnemyEmpty: 2070
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:56 122] - Monster:onStateChanged_: 2070 oldstate=3 to newstate=0, forbids=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], subState=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:56 122] - Monster::backSpawnPos: 2070, pos=Vector3(-64.340378, 1.500000, -121.070831), ref=false, speed=5.000000.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:56 718] - Monster::addTerritory: 2066 range=15, id=29.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:57 018] - Monster::addTerritory: 2067 range=15, id=30.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:57 018] - Monster::addTerritory: 2069 range=15, id=19.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:57 019] - Monster::addTerritory: 2068 range=15, id=28.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:08:57 119] - Monster::addTerritory: 2070 range=15, id=33.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:09:07 029] - Monster::onWitnessed: 2038 isWitnessed=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:09:12 030] - Monster::onWitnessed: 2042 isWitnessed=0.
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:09:12 030] - WitnessedTimeoutHandler::handleTimeout: witnesseds is empty, timer is canceled!
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:09:14 118] - Avatar::onDestroy: 177.
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:09:14 122] - Avatar::~Avatar(): 177
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:09:14 218] - Space::onLeave space[3] entityID = 177.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:09:29 122] - NPC::onWitnessed: 2031 isWitnessed=0.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:09:29 122] - NPC::onWitnessed: 2036 isWitnessed=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:09:29 123] - Monster::onWitnessed: 2048 isWitnessed=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:09:29 123] - Monster::onWitnessed: 2051 isWitnessed=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:09:29 123] - Monster::onWitnessed: 2056 isWitnessed=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:09:29 123] - Monster::onWitnessed: 2057 isWitnessed=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:09:29 123] - Monster::onWitnessed: 2059 isWitnessed=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:09:29 123] - Monster::onWitnessed: 2063 isWitnessed=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:09:29 124] - Monster::onWitnessed: 2065 isWitnessed=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:09:29 124] - Monster::onWitnessed: 2066 isWitnessed=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:09:29 124] - Monster::onWitnessed: 2067 isWitnessed=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:09:29 124] - Monster::onWitnessed: 2068 isWitnessed=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:09:29 124] - Monster::onWitnessed: 2069 isWitnessed=0.
+  S_INFO    cellapp01 49527 8001  [2017-06-14 18:09:29 124] - Monster::onWitnessed: 2070 isWitnessed=0.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:09:29 124] - Gate::onWitnessed: 2071 isWitnessed=0.
+   S_DBG    cellapp01 49527 8001  [2017-06-14 18:09:29 124] - Gate::onWitnessed: 2072 isWitnessed=0.
+   DEBUG    cellapp01 49527 8001  [2017-06-14 18:09:29 124] - WitnessedTimeoutHandler::handleTimeout: witnesseds is empty, timer is canceled!
+ WARNING    cellapp01 49527 8001  [2017-06-14 19:57:31 983] - TCPPacketReceiver::processPendingEvents(192.168.0.157:52704): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+   ERROR    cellapp01 49527 8001  [2017-06-14 19:57:31 990] - Components::removeComponentByChannel: baseapp : 7001, Abnormal exit! errorno=10054

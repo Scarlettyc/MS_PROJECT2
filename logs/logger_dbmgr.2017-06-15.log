@@ -1,0 +1,1157 @@
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:24 551] - -----------------------------------------------------------------------------------------
+
+
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:24 552] - Resmgr::initialize: KBE_ROOT=F:/kbengine/
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:24 552] - Resmgr::initialize: KBE_RES_PATH=F:/kbengine/kbe/res/;F:/kbengine/kbengine_demos_assets/;F:/kbengine/kbengine_demos_assets/scripts/;F:/kbengine/kbengine_demos_assets/res/
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:24 552] - Resmgr::initialize: KBE_BIN_PATH=F:/kbengine/kbe/bin/server/
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:24 555] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.0.157 ( 192.168.0.157:58393 )
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:24 555] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.0.157:58393, SOMAXCONN=5.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:24 555] - server-configs:
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:24 555] - 	internalAddr : 192.168.0.157:58393
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:24 555] - 	componentID : 4000
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:24 569] - Components::findLogger: found logger, addr:192.168.0.157:58381
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:24 638] - Components::addComponent: reset orderLog, uid=49527!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:24 638] - Components::addComponent[logger], uid=49527, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:24 642] - ---- dbmgr Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: F679420710A02CD3A5AA610C30581A2E. Config: Debug X86. Built: 15:29:52 Jun 14 2017. AppID: 4000. UID: 49527. PID: 3632 ----
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:24 642] - Server : Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz with 2097151kB RAM
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:24 642] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:24 643] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:24:24 770] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:24:24 770] - Script::install_py_dlls(): PyInit__socket
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:24:24 771] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:24:24 772] - Script::install_py_dlls(): PyInit_select
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:24:24 772] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:24:24 773] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:24:24 804] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:24 835] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 14 2017, 15:29:45) [MSC v.1910 32 bit (Intel)])!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:24 835] - Script::install(): KBExtra is successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:24 971] - Dbmgr::initializeEnd: digest(CB9166D533AC44AA58C80881426C6737)
+  S_INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:24 971] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:24 972] - TelnetServer server is running on port 32000
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:24 972] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 10:24:25 167] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+C3B712BC549242470EE4C4CF294B9251577B070F208C431B2F7BB184511D94DDE37D4894D5180F57461E60A4876E0D51A54E8344459D7659CC452B8F0426A302F896279A17522635A2CDE31A44608DF680DD57DB3ACED3E8491292E59ADC655F150E13509A0B37788E3392E0059A716F23F738A997F65A839E881B196562F645
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:24:25 170] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:24:25 174] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:25 175] - DBUtil::createInterface[0x5df224]: interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=kbe, username=kbe, connected=yes.
+
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:25 175] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:25 175] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:25 303] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:25 305] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 10:24:25 363] - dbmgr.cpp:293: Profile scriptCall took 0.39 seconds
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:25 691] - ---- dbmgr is running ----
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:24:25 691] - Components::process(): Request for the process of identity...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:24:25 175] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:24:25 175] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:24:25 176] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:24:25 176] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:24:25 176] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:24:25 178] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:24:25 178] - DBThread::onStart(): 0x614458!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:24:25 179] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:24:25 179] - DBThread::onStart(): 0x613f08!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:24:25 179] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:24:25 179] - DBThread::onStart(): 0x6144e0!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:24:25 179] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:24:25 179] - DBThread::onStart(): 0x614568!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:24:25 180] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:24:25 180] - DBThread::onStart(): 0x614788!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:25 307] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:25 307] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:25 308] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:25 308] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:25 315] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:25 316] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:25 316] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:25 321] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:32 801] - Components::process(): Found all the components!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:36 531] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:58397, extaddr:nonsupport, extport:0,  from 192.168.0.157:58436/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:36 532] - Components::addComponent: reset orderLog, uid=49527!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:36 532] - Components::addComponent[baseappmgr], uid=49527, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:36 726] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:58401, extaddr:nonsupport, extport:0,  from 192.168.0.157:58438/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:36 726] - Components::addComponent[cellappmgr], uid=49527, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:39 811] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:58413, extaddr:192.168.0.157, extport:20015,  from 192.168.0.157:58440/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:39 811] - Components::addComponent[baseapp], uid=49527, componentID=7001, globalorderid=3, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:39 851] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:58416, extaddr:nonsupport, extport:0,  from 192.168.0.157:58441/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:39 851] - Components::addComponent[cellapp], uid=49527, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:42 271] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:58418, extaddr:192.168.0.157, extport:20013,  from 192.168.0.157:58448/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:42 271] - Components::addComponent[loginapp], uid=49527, componentID=9000, globalorderid=5, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:45 272] - IDServer::allocRange: 1-2001.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:45 272] - IDServer::allocRange: 2001-4001.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:24:45 272] - SyncAppDatasHandler::~SyncAppDatasHandler()
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:47 611] - GlobalDataServer::broadcastDataChanged: writer(baseapp, addr=192.168.0.157:58440/0/0/0), keySize=12, valSize=46, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:50 731] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:58441/0/0/0), keySize=13, valSize=46, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:51 731] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:58441/0/0/0), keySize=13, valSize=47, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:52 831] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:58441/0/0/0), keySize=13, valSize=47, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:53 731] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:58441/0/0/0), keySize=13, valSize=47, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:55 831] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:58441/0/0/0), keySize=13, valSize=47, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:24:56 731] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:58441/0/0/0), keySize=13, valSize=47, isDelete=0
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:29:33 249] - Dbmgr::onAccountLogin:loginName=TEST, accountName=TEST, success=0, componentID=0, dbid=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:29:33 549] - Dbmgr::queryAccount: TEST, success=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:29:49 249] - Dbmgr::DBTaskQueryEntity: Avatar, dbid=1, entityID=176, wasActive=0, queryMode=0, componentID=7001, success=1.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:30:29 849] - Dbmgr::writeEntity: Account(1).
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:30:29 832] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=1, dbid_tasks_size=3, entityid_tasks_size=0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:30:29 849] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=176, dbid=1, dbid_tasks_size=2, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:30:29 869] - Dbmgr::onEntityOffline: 1, entityType=1.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:30:29 889] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:30:29 909] - Dbmgr::onEntityOffline: 1, entityType=2.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:30:29 874] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=1, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:34:35 927] - Dbmgr::onAccountLogin:loginName=TEST, accountName=TEST, success=0, componentID=0, dbid=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:34:36 227] - Dbmgr::queryAccount: TEST, success=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:34:46 207] - Dbmgr::DBTaskQueryEntity: Avatar, dbid=1, entityID=178, wasActive=0, queryMode=0, componentID=7001, success=1.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:36:10 107] - Dbmgr::writeEntity: Account(1).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:36:10 126] - Dbmgr::onEntityOffline: 1, entityType=1.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:36:10 126] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:36:10 147] - Dbmgr::onEntityOffline: 1, entityType=2.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:36:10 101] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=1, dbid_tasks_size=3, entityid_tasks_size=0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:36:10 114] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=178, dbid=1, dbid_tasks_size=2, entityid_tasks_size=0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:36:10 126] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=1, dbid_tasks_size=1, entityid_tasks_size=0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:36 034] - -----------------------------------------------------------------------------------------
+
+
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:36 035] - Resmgr::initialize: KBE_ROOT=F:/kbengine/
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:36 035] - Resmgr::initialize: KBE_RES_PATH=F:/kbengine/kbe/res/;F:/kbengine/kbengine_demos_assets/;F:/kbengine/kbengine_demos_assets/scripts/;F:/kbengine/kbengine_demos_assets/res/
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:36 035] - Resmgr::initialize: KBE_BIN_PATH=F:/kbengine/kbe/bin/server/
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:36 038] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.0.157 ( 192.168.0.157:60373 )
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:36 038] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.0.157:60373, SOMAXCONN=5.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:36 038] - server-configs:
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:36 038] - 	internalAddr : 192.168.0.157:60373
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:36 038] - 	componentID : 4000
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:37 543] - ---- dbmgr Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: F679420710A02CD3A5AA610C30581A2E. Config: Debug X86. Built: 15:29:52 Jun 14 2017. AppID: 4000. UID: 49527. PID: 7852 ----
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:37 543] - Server : Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz with 2097151kB RAM
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:37 543] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:37 544] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:37 665] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:37 665] - Script::install_py_dlls(): PyInit__socket
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:37 665] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:37 667] - Script::install_py_dlls(): PyInit_select
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:37 667] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:37 667] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:37 691] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:37 715] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 14 2017, 15:29:45) [MSC v.1910 32 bit (Intel)])!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:37 715] - Script::install(): KBExtra is successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:37 781] - Dbmgr::initializeEnd: digest(CB9166D533AC44AA58C80881426C6737)
+  S_INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:37 782] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:37 782] - TelnetServer server is running on port 32000
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:37 782] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 10:51:37 945] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+C422DD0445098FAFE555DB772ED8EADAB7CE8D8B751D785242F2C297C35C4A1536787CE566516A2F454D6132C11498D2ED726C2D5DC2F04ED71E6DB3FE8BFB7FEB6316397B6C1525BB95A9E674E279B8720455EE48063CB00D994108628BC7DF3948CF163EAD8CF6D225051005163F3FD7E8196CEBB206D99CDE0F7554B7B814
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:37 947] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:37 950] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:37 950] - DBUtil::createInterface[0x1d3eef0]: interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=kbe, username=kbe, connected=yes.
+
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:37 950] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:37 950] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:38 055] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:38 056] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:45 165] - DBInterfaceMysql::dropEntityTableFromDB: tbl_Avatar_equipItemList_values.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:45 286] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:45 286] - DBInterfaceMysql::dropEntityTableFromDB: tbl_Avatar_itemList_values.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:45 353] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:45 353] - DBInterfaceMysql::dropEntityTableFromDB: tbl_DroppedItem.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:45 419] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 10:51:45 420] - dbmgr.cpp:293: Profile scriptCall took 7.64 seconds
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:45 694] - ---- dbmgr is running ----
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:45 694] - Components::process(): Request for the process of identity...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:37 950] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:37 951] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:37 951] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:37 951] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:37 951] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:37 953] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:37 953] - DBThread::onStart(): 0x215c648!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:37 953] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:37 953] - DBThread::onStart(): 0x215c5c0!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:37 954] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:37 954] - DBThread::onStart(): 0x215c180!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:37 954] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:37 954] - DBThread::onStart(): 0x215c7e0!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:37 954] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:37 954] - DBThread::onStart(): 0x215c070!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:38 057] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:38 057] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:38 057] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:38 057] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:38 058] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:38 058] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:38 058] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:38 058] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:38 059] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Avatar sm_roleTypeCell.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:38 059] - syncToDB(): Account->sm_lastSelCharacter(bigint unsigned not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:38 059] - syncToDB(): Account_characters_values->sm_name(varchar(256) not null DEFAULT '').
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:38 062] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Monster sm_attack_Max.
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 10:51:38 327] - DBTask::process(): took 0.22 seconds
+sql:(show index from tbl_Gate)
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 10:51:38 634] - DBTask::process(): took 0.31 seconds
+sql:(show index from tbl_Space)
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:38 919] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:38 919] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Avatar sm_equipWeapon.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:38 919] - syncToDB(): Account_characters_values->sm_data_param1(tinyint not null DEFAULT 0).
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:38 919] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 10:51:38 920] - DBTask::process(): took 0.86 seconds
+sql:(show index from tbl_Account)
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:38 920] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Monster sm_attack_Min.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:39 929] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:39 929] - syncToDB(): Account_characters_values->sm_data_param2(blob).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:39 929] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Monster sm_defence.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:39 929] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:39 929] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Avatar sm_attack_Max.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:41 001] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:41 002] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Monster sm_rating.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:41 002] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:41 003] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Avatar sm_attack_Min.
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 10:51:41 003] - DBTask::process(): took 2.95 seconds
+sql:(show index from tbl_Account_characters_values)
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:41 635] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:41 635] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Monster sm_dodge.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:41 636] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:41 636] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Avatar sm_defence.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:42 269] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:42 269] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 10:51:42 269] - DBTask::process(): took 4.21 seconds
+sql:(show index from tbl_Monster)
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:42 270] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Avatar sm_rating.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:42 711] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:42 711] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Avatar sm_dodge.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:43 061] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:43 061] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Avatar sm_money.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:43 394] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:43 395] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Avatar sm_exp.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:44 045] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:44 045] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Avatar sm_strength.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:44 395] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:44 395] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Avatar sm_dexterity.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:44 762] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:44 762] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Avatar sm_stamina.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:45 146] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 10:51:45 146] - DBTask::process(): took 7.09 seconds
+sql:(show index from tbl_Avatar)
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:51 761] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:60374, extaddr:nonsupport, extport:0,  from 192.168.0.157:60392/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:51 761] - Components::addComponent: reset orderLog, uid=49527!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:51 762] - Components::addComponent[baseappmgr], uid=49527, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:51 762] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:60375, extaddr:nonsupport, extport:0,  from 192.168.0.157:60394/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:51 762] - Components::addComponent[cellappmgr], uid=49527, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:52 761] - Components::findComponents: find logger(1)...
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:52 813] - Components::findComponents: found logger, addr:192.168.0.157:60372
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:52 813] - Components::addComponent[logger], uid=49527, componentID=2000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:52 835] - Components::process(): Found all the components!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:54 121] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:60377, extaddr:nonsupport, extport:0,  from 192.168.0.157:60401/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:54 121] - Components::addComponent[cellapp], uid=49527, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:54 141] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:60376, extaddr:192.168.0.157, extport:20015,  from 192.168.0.157:60402/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:54 141] - Components::addComponent[baseapp], uid=49527, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:57 161] - IDServer::allocRange: 1-2001.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:57 161] - IDServer::allocRange: 2001-4001.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 10:51:57 161] - SyncAppDatasHandler::~SyncAppDatasHandler()
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:51:59 540] - GlobalDataServer::broadcastDataChanged: writer(baseapp, addr=192.168.0.157:60402/0/0/0), keySize=12, valSize=49, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:52:02 620] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:60401/0/0/0), keySize=13, valSize=49, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:52:03 620] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:60401/0/0/0), keySize=13, valSize=49, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:52:04 620] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:60401/0/0/0), keySize=13, valSize=49, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:52:05 640] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:60401/0/0/0), keySize=13, valSize=49, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:52:07 620] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:60401/0/0/0), keySize=13, valSize=49, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 10:52:08 640] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:60401/0/0/0), keySize=13, valSize=49, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:26 347] - -----------------------------------------------------------------------------------------
+
+
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:26 347] - Resmgr::initialize: KBE_ROOT=F:/kbengine/
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:26 347] - Resmgr::initialize: KBE_RES_PATH=F:/kbengine/kbe/res/;F:/kbengine/kbengine_demos_assets/;F:/kbengine/kbengine_demos_assets/scripts/;F:/kbengine/kbengine_demos_assets/res/
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:26 347] - Resmgr::initialize: KBE_BIN_PATH=F:/kbengine/kbe/bin/server/
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:26 350] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.0.157 ( 192.168.0.157:61233 )
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:26 350] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.0.157:61233, SOMAXCONN=5.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:26 350] - server-configs:
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:26 350] - 	internalAddr : 192.168.0.157:61233
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:26 351] - 	componentID : 4000
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:27 855] - ---- dbmgr Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: F679420710A02CD3A5AA610C30581A2E. Config: Debug X86. Built: 15:29:52 Jun 14 2017. AppID: 4000. UID: 49527. PID: 11220 ----
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:27 855] - Server : Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz with 2097151kB RAM
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:27 855] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:27 855] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:27 978] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:27 978] - Script::install_py_dlls(): PyInit__socket
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:27 978] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:27 980] - Script::install_py_dlls(): PyInit_select
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:27 980] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:27 980] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:28 004] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:28 028] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 14 2017, 15:29:45) [MSC v.1910 32 bit (Intel)])!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:28 028] - Script::install(): KBExtra is successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:28 092] - Dbmgr::initializeEnd: digest(CB9166D533AC44AA58C80881426C6737)
+  S_INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:28 093] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:28 093] - TelnetServer server is running on port 32000
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:28 093] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 11:20:28 252] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+B962A774C67DBFC96900C21AF1ABC34181627D1877C661BEEE79A308006BC2442F91EC24195B860AAD067C6B41579DBB30AFEDCC340AA8D01546E1C7DFB8D53940EAFBCC45840AC2BB168D6AD49183B12DD64AF3B27122093ED6C040B31AD3E291141C824D93F6AB2C6B16FAA2D95B363988A812CAFFC28EE60874FF1BC359C1
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:28 254] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:28 256] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:28 257] - DBUtil::createInterface[0x1d3ef98]: interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=kbe, username=kbe, connected=yes.
+
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:28 257] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:28 257] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:28 361] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:28 362] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:34 961] - DBInterfaceMysql::dropEntityTableFromDB: tbl_Avatar_equipItemList_values.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:35 011] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:35 011] - DBInterfaceMysql::dropEntityTableFromDB: tbl_Avatar_itemList_values.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:35 064] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:35 064] - DBInterfaceMysql::dropEntityTableFromDB: tbl_DroppedItem.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:35 114] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 11:20:35 114] - dbmgr.cpp:293: Profile scriptCall took 7.02 seconds
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:35 392] - ---- dbmgr is running ----
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:35 392] - Components::process(): Request for the process of identity...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:28 257] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:28 257] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:28 257] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:28 257] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:28 258] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:28 260] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:28 260] - DBThread::onStart(): 0x1ee4d30!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:28 260] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:28 260] - DBThread::onStart(): 0x1ee5390!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:28 260] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:28 260] - DBThread::onStart(): 0x1ee54a0!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:28 261] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:28 261] - DBThread::onStart(): 0x1ee5418!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:28 261] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:28 261] - DBThread::onStart(): 0x1ee4ca8!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:28 363] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:28 365] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Avatar sm_roleTypeCell.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:28 366] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:28 366] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:28 367] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:28 367] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:28 367] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:28 367] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:28 368] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:28 368] - syncToDB(): Account->sm_lastSelCharacter(bigint unsigned not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:28 369] - syncToDB(): Account_characters_values->sm_name(varchar(256) not null DEFAULT '').
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:28 371] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Monster sm_attack_Max.
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 11:20:28 711] - DBTask::process(): took 0.32 seconds
+sql:(show index from tbl_Space)
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 11:20:29 152] - DBTask::process(): took 0.42 seconds
+sql:(show index from tbl_SpaceDuplicate)
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:29 210] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:29 210] - syncToDB(): Account_characters_values->sm_data_param1(tinyint not null DEFAULT 0).
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:29 210] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:29 210] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Avatar sm_equipWeapon.
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 11:20:29 210] - DBTask::process(): took 0.84 seconds
+sql:(show index from tbl_Account)
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:29 211] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Monster sm_attack_Min.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:30 119] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:30 119] - syncToDB(): Account_characters_values->sm_data_param2(blob).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:30 119] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Monster sm_defence.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:30 708] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:30 708] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Avatar sm_attack_Max.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:31 146] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:31 146] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Monster sm_rating.
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 11:20:31 146] - DBTask::process(): took 2.78 seconds
+sql:(show index from tbl_Account_characters_values)
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:31 147] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:31 147] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Avatar sm_attack_Min.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:31 757] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:31 757] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Monster sm_dodge.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:31 872] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:31 872] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Avatar sm_defence.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:32 077] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 11:20:32 077] - DBTask::process(): took 3.71 seconds
+sql:(show index from tbl_Monster)
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:32 472] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:32 473] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Avatar sm_rating.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:32 810] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:32 810] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Avatar sm_dodge.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:33 280] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:33 280] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Avatar sm_money.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:33 580] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:33 581] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Avatar sm_exp.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:34 058] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:34 058] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Avatar sm_strength.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:34 393] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:34 393] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Avatar sm_dexterity.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:34 648] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:34 648] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Avatar sm_stamina.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:34 948] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 11:20:34 949] - DBTask::process(): took 6.59 seconds
+sql:(show index from tbl_Avatar)
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:41 452] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:61235, extaddr:nonsupport, extport:0,  from 192.168.0.157:61251/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:41 452] - Components::addComponent: reset orderLog, uid=49527!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:41 452] - Components::addComponent[cellappmgr], uid=49527, componentID=6000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:41 532] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:61234, extaddr:nonsupport, extport:0,  from 192.168.0.157:61253/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:41 532] - Components::addComponent[baseappmgr], uid=49527, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:41 832] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:61238, extaddr:192.168.0.157, extport:20013,  from 192.168.0.157:61255/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:41 832] - Components::addComponent[loginapp], uid=49527, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:42 452] - Components::findComponents: find logger(1)...
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:42 500] - Components::findComponents: found logger, addr:192.168.0.157:61232
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:42 500] - Components::addComponent[logger], uid=49527, componentID=2000, globalorderid=4, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:42 532] - Components::process(): Found all the components!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:42 852] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:61237, extaddr:nonsupport, extport:0,  from 192.168.0.157:61258/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:42 852] - Components::addComponent[cellapp], uid=49527, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:42 872] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:61236, extaddr:192.168.0.157, extport:20015,  from 192.168.0.157:61259/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:42 872] - Components::addComponent[baseapp], uid=49527, componentID=7001, globalorderid=6, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:45 872] - IDServer::allocRange: 1-2001.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:45 872] - IDServer::allocRange: 2001-4001.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:20:45 872] - SyncAppDatasHandler::~SyncAppDatasHandler()
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:48 211] - GlobalDataServer::broadcastDataChanged: writer(baseapp, addr=192.168.0.157:61259/0/0/0), keySize=12, valSize=49, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:51 252] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:61258/0/0/0), keySize=13, valSize=49, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:52 251] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:61258/0/0/0), keySize=13, valSize=49, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:53 251] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:61258/0/0/0), keySize=13, valSize=49, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:54 271] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:61258/0/0/0), keySize=13, valSize=49, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:56 251] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:61258/0/0/0), keySize=13, valSize=49, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:20:57 271] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:61258/0/0/0), keySize=13, valSize=49, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:21:41 818] - ServerApp::onChannelTimeOut: Channel 192.168.0.157:61255/0/0/0 timed out.
+   ERROR      dbmgr-1 49527 4000  [2017-06-15 11:21:41 819] - Components::removeComponentByChannel: loginapp : 9000, Abnormal exit! errorno=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:26 508] - -----------------------------------------------------------------------------------------
+
+
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:26 508] - Resmgr::initialize: KBE_ROOT=F:/kbengine/
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:26 508] - Resmgr::initialize: KBE_RES_PATH=F:/kbengine/kbe/res/;F:/kbengine/kbengine_demos_assets/;F:/kbengine/kbengine_demos_assets/scripts/;F:/kbengine/kbengine_demos_assets/res/
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:26 508] - Resmgr::initialize: KBE_BIN_PATH=F:/kbengine/kbe/bin/server/
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:26 511] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.0.157 ( 192.168.0.157:61444 )
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:26 512] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.0.157:61444, SOMAXCONN=5.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:26 512] - server-configs:
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:26 512] - 	internalAddr : 192.168.0.157:61444
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:26 512] - 	componentID : 4000
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:28 016] - ---- dbmgr Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: F679420710A02CD3A5AA610C30581A2E. Config: Debug X86. Built: 15:29:52 Jun 14 2017. AppID: 4000. UID: 49527. PID: 9788 ----
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:28 017] - Server : Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz with 2097151kB RAM
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:28 017] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:28 017] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:25:28 139] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:25:28 140] - Script::install_py_dlls(): PyInit__socket
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:25:28 140] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:25:28 142] - Script::install_py_dlls(): PyInit_select
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:25:28 142] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:25:28 142] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:25:28 167] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:28 192] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 14 2017, 15:29:45) [MSC v.1910 32 bit (Intel)])!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:28 193] - Script::install(): KBExtra is successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:28 264] - Dbmgr::initializeEnd: digest(CB9166D533AC44AA58C80881426C6737)
+  S_INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:28 265] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:28 265] - TelnetServer server is running on port 32000
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:28 265] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 11:25:28 452] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+C2767A38C88A478BE14F81408166F3BC4AB06741E8BD32034A057B10F6552C497A499AD6590C1D17AA9655F82398CD8CE84D16B7AA4399B5E933E40E81EE6CF79D3AA3937F4EA21E269C673281471BFFB6EEF7EFCA13FA764F0979DA2ED6A5905E36F6057534B20321EDC8C8B6E6F5D3242C3800CE670FBB3698FA37DD2FC331
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:25:28 454] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:25:28 456] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:28 456] - DBUtil::createInterface[0x1d3ee68]: interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=kbe, username=kbe, connected=yes.
+
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:28 457] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:28 457] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:28 564] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:28 565] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 11:25:28 598] - dbmgr.cpp:293: Profile scriptCall took 0.33 seconds
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:28 971] - ---- dbmgr is running ----
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:25:28 972] - Components::process(): Request for the process of identity...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:25:28 457] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:25:28 457] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:25:28 458] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:25:28 458] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:25:28 458] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:25:28 460] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:25:28 461] - DBThread::onStart(): 0x1f6b690!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:25:28 461] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:25:28 461] - DBThread::onStart(): 0x1f6b2d8!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:25:28 461] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:25:28 461] - DBThread::onStart(): 0x1f6ae10!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:25:28 461] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:25:28 461] - DBThread::onStart(): 0x1f6af20!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:25:28 462] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:25:28 462] - DBThread::onStart(): 0x1f6b360!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:28 566] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:28 566] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:28 567] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:28 567] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:28 567] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:28 567] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:28 568] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:28 568] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:36 044] - Components::findComponents: find logger(1)...
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:36 068] - Components::findComponents: found logger, addr:192.168.0.157:61443
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:36 068] - Components::addComponent: reset orderLog, uid=49527!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:36 068] - Components::addComponent[logger], uid=49527, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:36 104] - Components::process(): Found all the components!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:39 764] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:61445, extaddr:nonsupport, extport:0,  from 192.168.0.157:61465/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:39 764] - Components::addComponent: reset orderLog, uid=49527!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:39 764] - Components::addComponent[baseappmgr], uid=49527, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:39 824] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:61446, extaddr:nonsupport, extport:0,  from 192.168.0.157:61467/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:39 824] - Components::addComponent[cellappmgr], uid=49527, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:40 264] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:61450, extaddr:192.168.0.157, extport:20013,  from 192.168.0.157:61469/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:40 264] - Components::addComponent[loginapp], uid=49527, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:42 624] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:61447, extaddr:192.168.0.157, extport:20015,  from 192.168.0.157:61474/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:42 624] - Components::addComponent[baseapp], uid=49527, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:42 884] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:61449, extaddr:nonsupport, extport:0,  from 192.168.0.157:61477/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:42 884] - Components::addComponent[cellapp], uid=49527, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:45 904] - IDServer::allocRange: 1-2001.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:45 904] - IDServer::allocRange: 2001-4001.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:25:45 904] - SyncAppDatasHandler::~SyncAppDatasHandler()
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:48 224] - GlobalDataServer::broadcastDataChanged: writer(baseapp, addr=192.168.0.157:61474/0/0/0), keySize=12, valSize=46, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:51 383] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:61477/0/0/0), keySize=13, valSize=46, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:52 383] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:61477/0/0/0), keySize=13, valSize=47, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:53 383] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:61477/0/0/0), keySize=13, valSize=47, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:54 383] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:61477/0/0/0), keySize=13, valSize=47, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:56 383] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:61477/0/0/0), keySize=13, valSize=47, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:25:57 383] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:61477/0/0/0), keySize=13, valSize=47, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:28:46 016] - -----------------------------------------------------------------------------------------
+
+
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:28:46 016] - Resmgr::initialize: KBE_ROOT=F:/kbengine/
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:28:46 016] - Resmgr::initialize: KBE_RES_PATH=F:/kbengine/kbe/res/;F:/kbengine/kbengine_demos_assets/;F:/kbengine/kbengine_demos_assets/scripts/;F:/kbengine/kbengine_demos_assets/res/
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:28:46 016] - Resmgr::initialize: KBE_BIN_PATH=F:/kbengine/kbe/bin/server/
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:28:46 019] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.0.157 ( 192.168.0.157:49431 )
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:28:46 019] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.0.157:49431, SOMAXCONN=5.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:28:46 019] - server-configs:
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:28:46 019] - 	internalAddr : 192.168.0.157:49431
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:28:46 019] - 	componentID : 4000
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:28:46 062] - Components::findLogger: found logger, addr:192.168.0.157:49430
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:28:46 062] - Components::addComponent: reset orderLog, uid=49527!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:28:46 063] - Components::addComponent[logger], uid=49527, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:28:46 118] - ---- dbmgr Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: F679420710A02CD3A5AA610C30581A2E. Config: Debug X86. Built: 15:29:52 Jun 14 2017. AppID: 4000. UID: 49527. PID: 4668 ----
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:28:46 119] - Server : Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz with 2097151kB RAM
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:28:46 120] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:28:46 120] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:28:46 487] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:28:46 504] - Script::install_py_dlls(): PyInit__socket
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:28:46 511] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:28:46 565] - Script::install_py_dlls(): PyInit_select
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:28:46 565] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:28:46 566] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:28:46 594] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:28:46 720] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 14 2017, 15:29:45) [MSC v.1910 32 bit (Intel)])!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:28:46 721] - Script::install(): KBExtra is successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:28:47 087] - Dbmgr::initializeEnd: digest(CB9166D533AC44AA58C80881426C6737)
+  S_INFO      dbmgr-1 49527 4000  [2017-06-15 11:28:47 087] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:28:47 096] - TelnetServer server is running on port 32000
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:28:47 096] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 11:28:47 263] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+754426D4C7EACACC35757DB66E76F8559D65D98A77DF75818849989FD7E084E1C98863BCAAD36FD1DBCFCA3A619745DE98B0113C3FC0606CFCEFE1268D2710BFBDB55313E2B59E1D530DDA613C6596D404683768DD7EE8D66F4AE236FB151438F91AEF9C106A31B0EC4A76C3DB1E2B06C42E8576DE9CA1F20F4293AEED990B59
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:28:47 526] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   ERROR      dbmgr-1 49527 4000  [2017-06-15 11:28:49 543] - DBInterfaceMysql::attach: mysql_errno=2003, mysql_error=Can't connect to MySQL server on 'localhost' (10061)
+   ERROR      dbmgr-1 49527 4000  [2017-06-15 11:28:49 544] - DBUtil::createInterface: attach to database failed!
+	dbinterface=0x9cf0dc
+	args=interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=kbe, username=kbe, connected=no.
+
+   ERROR      dbmgr-1 49527 4000  [2017-06-15 11:28:49 544] - Dbmgr::initDB(): can't create dbInterface!
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 11:28:49 557] - dbmgr.cpp:293: Profile scriptCall took 2.46 seconds
+   ERROR      dbmgr-1 49527 4000  [2017-06-15 11:28:49 557] - app::initialize(): initialization failed!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:28:49 558] - ThreadPool::destroy(): starting size 0.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:28:49 977] - ThreadPool::destroy(): successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:28:49 978] - Script::uninstall_py_dlls(): PyInit_pyexpat
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:28:49 978] - Script::uninstall_py_dlls(): PyInit__socket
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:28:49 978] - Script::uninstall_py_dlls(): PyInit__hashlib
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:28:49 978] - Script::uninstall_py_dlls(): PyInit_select
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:28:49 978] - Script::uninstall_py_dlls(): PyInit__ctypes
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:28:49 978] - Script::uninstall_py_dlls(): PyInit__elementtree
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:28:49 978] - Script::uninstall_py_dlls(): PyInit_unicodedata
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:28:49 984] - Script::uninstall(): is successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:28:49 984] - ThreadPool::destroy(): starting size 2.
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 11:28:50 297] - ThreadPool::destroy(): waiting for thread(2)[0xc40188,0xc3fde0,], try=1
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:28:50 698] - TPThread::~TPThread(): 0xc40188
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:28:50 698] - TPThread::~TPThread(): 0xc3fde0
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:28:50 698] - ThreadPool::destroy(): successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:28:50 708] - Bundle::destroyObjPool(): size 13.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:28:50 708] - Channel::destroyObjPool(): size 14.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:28:50 709] - TCPPacket::destroyObjPool(): size 0.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:28:50 709] - UDPPacket::destroyObjPool(): size 14.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:28:50 710] - EndPoint::destroyObjPool(): size 14.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:28:50 710] - Address::destroyObjPool(): size 0.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:28:50 710] - TCPPacketReceiver::destroyObjPool(): size 0.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:28:50 710] - UDPPacketReceiver::destroyObjPool(): size 0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:18 523] - -----------------------------------------------------------------------------------------
+
+
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:18 523] - Resmgr::initialize: KBE_ROOT=F:/kbengine/
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:18 523] - Resmgr::initialize: KBE_RES_PATH=F:/kbengine/kbe/res/;F:/kbengine/kbengine_demos_assets/;F:/kbengine/kbengine_demos_assets/scripts/;F:/kbengine/kbengine_demos_assets/res/
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:18 523] - Resmgr::initialize: KBE_BIN_PATH=F:/kbengine/kbe/bin/server/
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:18 526] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.0.157 ( 192.168.0.157:49454 )
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:18 526] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.0.157:49454, SOMAXCONN=5.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:18 526] - server-configs:
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:18 526] - 	internalAddr : 192.168.0.157:49454
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:18 526] - 	componentID : 4000
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:20 033] - ---- dbmgr Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: F679420710A02CD3A5AA610C30581A2E. Config: Debug X86. Built: 15:29:52 Jun 14 2017. AppID: 4000. UID: 49527. PID: 3180 ----
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:20 034] - Server : Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz with 2097151kB RAM
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:20 034] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:20 034] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:29:20 156] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:29:20 157] - Script::install_py_dlls(): PyInit__socket
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:29:20 157] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:29:20 158] - Script::install_py_dlls(): PyInit_select
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:29:20 158] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:29:20 159] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:29:20 183] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:20 208] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 14 2017, 15:29:45) [MSC v.1910 32 bit (Intel)])!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:20 208] - Script::install(): KBExtra is successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:20 271] - Dbmgr::initializeEnd: digest(CB9166D533AC44AA58C80881426C6737)
+  S_INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:20 271] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:20 272] - TelnetServer server is running on port 32000
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:20 272] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 11:29:20 416] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+5BBD8D87571223F9C448D0BD0F011B0E2C0CE155DCEB5DDDB2F8003C4D087CAE3337A8914DA2EDCADA22A7806ACCD36BFD5DF8A7747495CA56E4403A371C6CF15B46664B476E6639343E396D19051DAA636ABDF9D7B58196115DDAB355900A9A5A43A6EC90848B1D82269E858D3A7F90C8576FA5EFB42FF1013C6E65EF37EDDD
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:29:20 418] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:29:20 589] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:20 589] - DBUtil::createInterface[0x7af2c0]: interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=kbe, username=kbe, connected=yes.
+
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:20 598] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:20 598] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:20 738] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:20 741] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 11:29:20 967] - dbmgr.cpp:293: Profile scriptCall took 0.70 seconds
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:21 239] - ---- dbmgr is running ----
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:29:21 240] - Components::process(): Request for the process of identity...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:29:20 599] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:29:20 599] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:29:20 599] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:29:20 599] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:29:20 599] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:29:20 601] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:29:20 601] - DBThread::onStart(): 0xa4c7e0!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:29:20 601] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:29:20 601] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:29:20 602] - DBThread::onStart(): 0xa4cec8!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:29:20 602] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:29:20 602] - DBThread::onStart(): 0xa4cf50!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:29:20 602] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:29:20 602] - DBThread::onStart(): 0xa4c868!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:29:20 602] - DBThread::onStart(): 0xa4c6d0!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:20 779] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:20 779] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:20 779] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:20 780] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:20 793] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:20 793] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:20 793] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:20 797] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:28 332] - Components::findComponents: find logger(1)...
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:28 442] - Components::findComponents: found logger, addr:192.168.0.157:49453
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:28 442] - Components::addComponent: reset orderLog, uid=49527!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:28 442] - Components::addComponent[logger], uid=49527, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:28 471] - Components::process(): Found all the components!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:30 272] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:49455, extaddr:nonsupport, extport:0,  from 192.168.0.157:49475/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:30 272] - Components::addComponent: reset orderLog, uid=49527!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:30 272] - Components::addComponent[baseappmgr], uid=49527, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:30 811] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:49462, extaddr:192.168.0.157, extport:20013,  from 192.168.0.157:49477/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:30 811] - Components::addComponent[loginapp], uid=49527, componentID=9000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:31 651] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:49456, extaddr:nonsupport, extport:0,  from 192.168.0.157:49479/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:31 651] - Components::addComponent[cellappmgr], uid=49527, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:32 959] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:49459, extaddr:192.168.0.157, extport:20015,  from 192.168.0.157:49481/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:32 959] - Components::addComponent[baseapp], uid=49527, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:33 365] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:49460, extaddr:nonsupport, extport:0,  from 192.168.0.157:49484/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:33 365] - Components::addComponent[cellapp], uid=49527, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:36 379] - IDServer::allocRange: 1-2001.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:36 379] - IDServer::allocRange: 2001-4001.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:29:36 380] - SyncAppDatasHandler::~SyncAppDatasHandler()
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:39 808] - GlobalDataServer::broadcastDataChanged: writer(baseapp, addr=192.168.0.157:49481/0/0/0), keySize=12, valSize=46, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:43 211] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:49484/0/0/0), keySize=13, valSize=46, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:43 880] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:49484/0/0/0), keySize=13, valSize=46, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:44 826] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:49484/0/0/0), keySize=13, valSize=47, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:45 895] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:49484/0/0/0), keySize=13, valSize=47, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:47 922] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:49484/0/0/0), keySize=13, valSize=47, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:29:48 911] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:49484/0/0/0), keySize=13, valSize=47, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:30:30 792] - ServerApp::onChannelTimeOut: Channel 192.168.0.157:49477/0/0/0 timed out.
+   ERROR      dbmgr-1 49527 4000  [2017-06-15 11:30:30 792] - Components::removeComponentByChannel: loginapp : 9000, Abnormal exit! errorno=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:21 792] - -----------------------------------------------------------------------------------------
+
+
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:21 793] - Resmgr::initialize: KBE_ROOT=F:/kbengine/
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:21 793] - Resmgr::initialize: KBE_RES_PATH=F:/kbengine/kbe/res/;F:/kbengine/kbengine_demos_assets/;F:/kbengine/kbengine_demos_assets/scripts/;F:/kbengine/kbengine_demos_assets/res/
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:21 793] - Resmgr::initialize: KBE_BIN_PATH=F:/kbengine/kbe/bin/server/
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:21 800] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.0.157 ( 192.168.0.157:49679 )
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:21 800] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.0.157:49679, SOMAXCONN=5.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:21 801] - server-configs:
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:21 801] - 	internalAddr : 192.168.0.157:49679
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:21 801] - 	componentID : 4000
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:23 307] - ---- dbmgr Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: F679420710A02CD3A5AA610C30581A2E. Config: Debug X86. Built: 15:29:52 Jun 14 2017. AppID: 4000. UID: 49527. PID: 5092 ----
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:23 307] - Server : Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz with 2097151kB RAM
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:23 307] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:23 307] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:32:23 430] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:32:23 430] - Script::install_py_dlls(): PyInit__socket
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:32:23 431] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:32:23 432] - Script::install_py_dlls(): PyInit_select
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:32:23 432] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:32:23 433] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:32:23 457] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:23 484] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 14 2017, 15:29:45) [MSC v.1910 32 bit (Intel)])!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:23 484] - Script::install(): KBExtra is successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:23 552] - Dbmgr::initializeEnd: digest(CB9166D533AC44AA58C80881426C6737)
+  S_INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:23 552] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:23 552] - TelnetServer server is running on port 32000
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:23 552] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 11:32:23 705] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+A999FD2AABA3716DA7EBD35CB1E1062E6A9B0DDBAFE29A80C197F2682F2187B271286C37AA297A8FBC8C2DC6AD42716BD3067F5155D90BA4034FB8F14EAABCB6FAEC943C99AB4EF69E04E8AC613AB8A3611E573B84A7F9DB56F29417398AFEC063F32EAB5FA0B136D3BAF09609C36B7196CE0F0558095581B9001CF4D3A918CA
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:32:23 707] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:32:23 710] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:23 710] - DBUtil::createInterface[0x52f500]: interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=kbe, username=kbe, connected=yes.
+
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:23 710] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:23 710] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:23 814] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:23 816] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 11:32:23 859] - dbmgr.cpp:293: Profile scriptCall took 0.31 seconds
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:24 136] - ---- dbmgr is running ----
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:32:24 136] - Components::process(): Request for the process of identity...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:32:23 710] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:32:23 711] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:32:23 711] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:32:23 711] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:32:23 711] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:32:23 713] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:32:23 713] - DBThread::onStart(): 0x71ce98!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:32:23 713] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:32:23 713] - DBThread::onStart(): 0x71c8c0!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:32:23 713] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:32:23 714] - DBThread::onStart(): 0x71ce10!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:32:23 714] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:32:23 714] - DBThread::onStart(): 0x71cb68!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:32:23 714] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:32:23 714] - DBThread::onStart(): 0x71ca58!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:23 816] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:23 818] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:23 818] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:23 818] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:23 818] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:23 818] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:23 819] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:23 819] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:31 194] - Components::findComponents: find logger(1)...
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:31 244] - Components::findComponents: found logger, addr:192.168.0.157:49678
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:31 245] - Components::addComponent: reset orderLog, uid=49527!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:31 245] - Components::addComponent[logger], uid=49527, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:31 272] - Components::process(): Found all the components!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:33 792] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:49681, extaddr:nonsupport, extport:0,  from 192.168.0.157:49700/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:33 792] - Components::addComponent: reset orderLog, uid=49527!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:33 792] - Components::addComponent[cellappmgr], uid=49527, componentID=6000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:34 172] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:49686, extaddr:192.168.0.157, extport:20013,  from 192.168.0.157:49702/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:34 172] - Components::addComponent[loginapp], uid=49527, componentID=9000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:34 912] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:49680, extaddr:nonsupport, extport:0,  from 192.168.0.157:49704/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:34 912] - Components::addComponent[baseappmgr], uid=49527, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:36 331] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:49684, extaddr:nonsupport, extport:0,  from 192.168.0.157:49707/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:36 332] - Components::addComponent[cellapp], uid=49527, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:36 452] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:49683, extaddr:192.168.0.157, extport:20015,  from 192.168.0.157:49710/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:36 452] - Components::addComponent[baseapp], uid=49527, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:39 472] - IDServer::allocRange: 1-2001.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:39 472] - IDServer::allocRange: 2001-4001.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:32:39 472] - SyncAppDatasHandler::~SyncAppDatasHandler()
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:41 832] - GlobalDataServer::broadcastDataChanged: writer(baseapp, addr=192.168.0.157:49710/0/0/0), keySize=12, valSize=49, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:44 832] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:49707/0/0/0), keySize=13, valSize=49, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:45 831] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:49707/0/0/0), keySize=13, valSize=49, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:46 832] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:49707/0/0/0), keySize=13, valSize=49, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:47 832] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:49707/0/0/0), keySize=13, valSize=49, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:49 832] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:49707/0/0/0), keySize=13, valSize=49, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:32:50 832] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:49707/0/0/0), keySize=13, valSize=49, isDelete=0
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:33:13 191] - Dbmgr::onAccountLogin:loginName=TEST, accountName=TEST, success=0, componentID=0, dbid=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:33:13 671] - Dbmgr::queryAccount: TEST, success=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:33:17 871] - Dbmgr::DBTaskQueryEntity: Avatar, dbid=1, entityID=2176, wasActive=0, queryMode=0, componentID=7001, success=1.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:22 115] - -----------------------------------------------------------------------------------------
+
+
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:22 116] - Resmgr::initialize: KBE_ROOT=F:/kbengine/
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:22 116] - Resmgr::initialize: KBE_RES_PATH=F:/kbengine/kbe/res/;F:/kbengine/kbengine_demos_assets/;F:/kbengine/kbengine_demos_assets/scripts/;F:/kbengine/kbengine_demos_assets/res/
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:22 116] - Resmgr::initialize: KBE_BIN_PATH=F:/kbengine/kbe/bin/server/
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:22 118] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.0.157 ( 192.168.0.157:50628 )
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:22 119] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.0.157:50628, SOMAXCONN=5.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:22 119] - server-configs:
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:22 119] - 	internalAddr : 192.168.0.157:50628
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:22 119] - 	componentID : 4000
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:23 632] - ---- dbmgr Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: F679420710A02CD3A5AA610C30581A2E. Config: Debug X86. Built: 15:29:52 Jun 14 2017. AppID: 4000. UID: 49527. PID: 7564 ----
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:23 633] - Server : Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz with 2097151kB RAM
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:23 633] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:23 633] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:23 756] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:23 756] - Script::install_py_dlls(): PyInit__socket
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:23 756] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:23 758] - Script::install_py_dlls(): PyInit_select
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:23 758] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:23 758] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:23 784] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:23 808] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 14 2017, 15:29:45) [MSC v.1910 32 bit (Intel)])!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:23 808] - Script::install(): KBExtra is successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:23 873] - Dbmgr::initializeEnd: digest(CB9166D533AC44AA58C80881426C6737)
+  S_INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:23 873] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:23 873] - TelnetServer server is running on port 32000
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:23 873] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 11:39:24 021] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+69852FD84242F77458F9DDF20C31E5297C8650D070AA60525FFFA7E28FC84822D314F760DE5789DEB32B4FF6F66F518A4AB52DBD823E546F09451357CA152D9A1AE0DF56C2958555AAFF460ED32D0AA1C9684DC540F36550AD23C84ADF157A34DDC93FEEB771B43F2C7730FEAED15670636BEDC066873BD25AA1561422E4D00E
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:24 023] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:24 026] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:24 026] - DBUtil::createInterface[0x22df32c]: interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=kbe, username=kbe, connected=yes.
+
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:24 026] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:24 027] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:24 131] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:24 132] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:31 080] - DBInterfaceMysql::dropEntityTableFromDB: tbl_Avatar_equipItemList_values.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:31 145] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:31 145] - DBInterfaceMysql::dropEntityTableFromDB: tbl_Avatar_itemList_values.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:31 237] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:31 237] - DBInterfaceMysql::dropEntityTableFromDB: tbl_DroppedItem.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:31 345] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 11:39:31 345] - dbmgr.cpp:293: Profile scriptCall took 7.47 seconds
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:31 626] - ---- dbmgr is running ----
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:31 626] - Components::process(): Request for the process of identity...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:24 027] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:24 027] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:24 027] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:24 027] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:24 028] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:24 030] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:24 030] - DBThread::onStart(): 0x238d278!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:24 030] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:24 030] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:24 030] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:24 031] - DBThread::onStart(): 0x238cf48!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:24 031] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:24 031] - DBThread::onStart(): 0x238c9f8!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:24 031] - DBThread::onStart(): 0x238cdb0!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:24 031] - DBThread::onStart(): 0x238c640!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:24 133] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:24 133] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:24 134] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:24 134] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:24 134] - syncToDB(): Account->sm_lastSelCharacter(bigint unsigned not null DEFAULT 0).
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:24 134] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:24 135] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:24 135] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:24 135] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:24 135] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Avatar sm_roleTypeCell.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:24 179] - syncToDB(): Account_characters_values->sm_name(varchar(256) not null DEFAULT '').
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:24 180] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Monster sm_attack_Max.
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 11:39:24 414] - DBTask::process(): took 0.23 seconds
+sql:(show index from tbl_Spaces)
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 11:39:24 699] - DBTask::process(): took 0.28 seconds
+sql:(show index from tbl_Gate)
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 11:39:24 907] - DBTask::process(): took 0.21 seconds
+sql:(show index from tbl_Space)
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:25 008] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:25 008] - syncToDB(): Account_characters_values->sm_data_param1(tinyint not null DEFAULT 0).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:25 008] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Monster sm_attack_Min.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:25 008] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:25 008] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Avatar sm_equipWeapon.
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 11:39:25 009] - DBTask::process(): took 0.88 seconds
+sql:(show index from tbl_Account)
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:25 943] - syncToDB(): Account_characters_values->sm_data_param2(blob).
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:25 943] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:25 943] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:25 943] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Avatar sm_attack_Max.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:25 943] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Monster sm_defence.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:27 026] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:27 027] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:27 027] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Monster sm_rating.
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 11:39:27 027] - DBTask::process(): took 2.89 seconds
+sql:(show index from tbl_Account_characters_values)
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:27 027] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Avatar sm_attack_Min.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:27 717] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:27 717] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Monster sm_dodge.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:27 717] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:27 717] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Avatar sm_defence.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:28 350] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:28 350] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 11:39:28 350] - DBTask::process(): took 4.21 seconds
+sql:(show index from tbl_Monster)
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:28 351] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Avatar sm_rating.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:28 900] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:28 900] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Avatar sm_dodge.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:29 303] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:29 303] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Avatar sm_money.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:29 695] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:29 695] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Avatar sm_exp.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:30 002] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:30 003] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Avatar sm_strength.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:30 337] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:30 337] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Avatar sm_dexterity.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:30 726] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:30 726] - DBInterfaceMysql::dropEntityTableItemFromDB: tbl_Avatar sm_stamina.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:31 063] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 11:39:31 064] - DBTask::process(): took 6.93 seconds
+sql:(show index from tbl_Avatar)
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:37 746] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:50633, extaddr:192.168.0.157, extport:20013,  from 192.168.0.157:50664/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:37 746] - Components::addComponent: reset orderLog, uid=49527!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:37 747] - Components::addComponent[loginapp], uid=49527, componentID=9000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:37 747] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:50630, extaddr:nonsupport, extport:0,  from 192.168.0.157:50667/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:37 747] - Components::addComponent[cellappmgr], uid=49527, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:38 684] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:50632, extaddr:nonsupport, extport:0,  from 192.168.0.157:50669/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:38 684] - Components::addComponent[cellapp], uid=49527, componentID=8001, globalorderid=3, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:38 731] - Components::findComponents: find logger(1)...
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:38 748] - Components::findComponents: found logger, addr:192.168.0.157:50627
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:38 748] - Components::addComponent[logger], uid=49527, componentID=2000, globalorderid=4, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:38 749] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:50631, extaddr:192.168.0.157, extport:20015,  from 192.168.0.157:50670/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:38 749] - Components::addComponent[baseapp], uid=49527, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:38 777] - Components::process(): Found all the components!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:39 105] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:50629, extaddr:nonsupport, extport:0,  from 192.168.0.157:50677/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:39 105] - Components::addComponent[baseappmgr], uid=49527, componentID=5000, globalorderid=6, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:42 114] - IDServer::allocRange: 1-2001.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:42 114] - IDServer::allocRange: 2001-4001.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:39:42 114] - SyncAppDatasHandler::~SyncAppDatasHandler()
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:44 864] - GlobalDataServer::broadcastDataChanged: writer(baseapp, addr=192.168.0.157:50670/0/0/0), keySize=12, valSize=49, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:48 005] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:50669/0/0/0), keySize=13, valSize=49, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:49 005] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:50669/0/0/0), keySize=13, valSize=49, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:49 992] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:50669/0/0/0), keySize=13, valSize=49, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:50 971] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:50669/0/0/0), keySize=13, valSize=49, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:52 871] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:50669/0/0/0), keySize=13, valSize=49, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:39:53 998] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:50669/0/0/0), keySize=13, valSize=49, isDelete=0
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:40:11 630] - Dbmgr::onAccountLogin:loginName=TEST, accountName=TEST, success=0, componentID=0, dbid=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:40:11 970] - Dbmgr::queryAccount: TEST, success=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:40:15 070] - Dbmgr::DBTaskQueryEntity: Avatar, dbid=1, entityID=2176, wasActive=0, queryMode=0, componentID=7001, success=1.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:40:49 601] - Dbmgr::writeEntity: Account(1).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:40:49 617] - Dbmgr::onEntityOffline: 1, entityType=1.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:40:49 592] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=1, dbid_tasks_size=3, entityid_tasks_size=0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:40:49 606] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=2176, dbid=1, dbid_tasks_size=2, entityid_tasks_size=0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:40:49 617] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=1, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:40:49 633] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:40:49 648] - Dbmgr::onEntityOffline: 1, entityType=2.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:19 624] - -----------------------------------------------------------------------------------------
+
+
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:19 625] - Resmgr::initialize: KBE_ROOT=F:/kbengine/
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:19 625] - Resmgr::initialize: KBE_RES_PATH=F:/kbengine/kbe/res/;F:/kbengine/kbengine_demos_assets/;F:/kbengine/kbengine_demos_assets/scripts/;F:/kbengine/kbengine_demos_assets/res/
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:19 625] - Resmgr::initialize: KBE_BIN_PATH=F:/kbengine/kbe/bin/server/
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:19 628] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.0.157 ( 192.168.0.157:51135 )
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:19 628] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.0.157:51135, SOMAXCONN=5.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:19 628] - server-configs:
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:19 628] - 	internalAddr : 192.168.0.157:51135
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:19 628] - 	componentID : 4000
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:21 132] - ---- dbmgr Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: F679420710A02CD3A5AA610C30581A2E. Config: Debug X86. Built: 15:29:52 Jun 14 2017. AppID: 4000. UID: 49527. PID: 6032 ----
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:21 132] - Server : Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz with 2097151kB RAM
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:21 133] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:21 133] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:48:21 258] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:48:21 258] - Script::install_py_dlls(): PyInit__socket
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:48:21 259] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:48:21 260] - Script::install_py_dlls(): PyInit_select
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:48:21 260] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:48:21 261] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:48:21 286] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:21 314] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 14 2017, 15:29:45) [MSC v.1910 32 bit (Intel)])!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:21 314] - Script::install(): KBExtra is successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:21 381] - Dbmgr::initializeEnd: digest(CB9166D533AC44AA58C80881426C6737)
+  S_INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:21 381] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:21 381] - TelnetServer server is running on port 32000
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:21 381] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 11:48:21 531] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+0D48A90B0F33345C2E7514D4D0A6A5FD376CCF399F3834DF00D16713A2044E1FA776A0E6A2AF2035D15C469A577B3AEF53D2225865CC37566D20A860D9CA68324A07662B1A7D850E456D60CC8E6EB2D9E90B9377E12D4EE25F5803120294B7AB96C198CBEABFC46C4746493A3EFEDE6DEB493D1F7134D97568CDD2623B78167E
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:48:21 534] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:48:21 536] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:21 536] - DBUtil::createInterface[0x44eebc]: interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=kbe, username=kbe, connected=yes.
+
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:21 537] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:21 537] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:21 641] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:21 642] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 11:48:21 696] - dbmgr.cpp:293: Profile scriptCall took 0.32 seconds
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:21 979] - ---- dbmgr is running ----
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:48:21 979] - Components::process(): Request for the process of identity...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:48:21 537] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:48:21 537] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:48:21 537] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:48:21 538] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:48:21 538] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:48:21 540] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:48:21 540] - DBThread::onStart(): 0x7803f8!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:48:21 540] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:48:21 540] - DBThread::onStart(): 0x780508!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:48:21 540] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:48:21 540] - DBThread::onStart(): 0x781250!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:48:21 541] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:48:21 541] - DBThread::onStart(): 0x780e98!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:48:21 541] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:48:21 541] - DBThread::onStart(): 0x780948!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:21 643] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:21 644] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:21 645] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:21 645] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:21 645] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:21 646] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:21 646] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:21 646] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:29 061] - Components::findComponents: find logger(1)...
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:29 118] - Components::findComponents: found logger, addr:192.168.0.157:51133
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:29 119] - Components::addComponent: reset orderLog, uid=49527!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:29 119] - Components::addComponent[logger], uid=49527, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:29 121] - Components::process(): Found all the components!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:31 361] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:51136, extaddr:nonsupport, extport:0,  from 192.168.0.157:51169/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:31 361] - Components::addComponent: reset orderLog, uid=49527!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:31 361] - Components::addComponent[baseappmgr], uid=49527, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:31 361] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:51138, extaddr:nonsupport, extport:0,  from 192.168.0.157:51170/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:31 361] - Components::addComponent[cellappmgr], uid=49527, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:31 780] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:51142, extaddr:192.168.0.157, extport:20013,  from 192.168.0.157:51173/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:31 780] - Components::addComponent[loginapp], uid=49527, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:34 001] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:51143, extaddr:nonsupport, extport:0,  from 192.168.0.157:51175/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:34 001] - Components::addComponent[cellapp], uid=49527, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:34 081] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:51139, extaddr:192.168.0.157, extport:20015,  from 192.168.0.157:51176/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:34 081] - Components::addComponent[baseapp], uid=49527, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:37 095] - IDServer::allocRange: 1-2001.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:37 095] - IDServer::allocRange: 2001-4001.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:48:37 095] - SyncAppDatasHandler::~SyncAppDatasHandler()
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:39 587] - GlobalDataServer::broadcastDataChanged: writer(baseapp, addr=192.168.0.157:51176/0/0/0), keySize=12, valSize=49, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:42 600] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:51175/0/0/0), keySize=13, valSize=49, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:43 580] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:51175/0/0/0), keySize=13, valSize=49, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:44 600] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:51175/0/0/0), keySize=13, valSize=49, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:45 702] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:51175/0/0/0), keySize=13, valSize=49, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:47 700] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:51175/0/0/0), keySize=13, valSize=49, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 11:48:48 704] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:51175/0/0/0), keySize=13, valSize=49, isDelete=0
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:49:01 760] - Dbmgr::onAccountLogin:loginName=TEST, accountName=TEST, success=0, componentID=0, dbid=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:49:02 300] - Dbmgr::queryAccount: TEST, success=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:49:08 300] - Dbmgr::DBTaskQueryEntity: Avatar, dbid=1, entityID=2176, wasActive=0, queryMode=0, componentID=7001, success=1.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:55:50 692] - Dbmgr::writeEntity: Account(1).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 11:58:21 108] - Dbmgr::writeEntity: Avatar(1).
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 11:58:21 107] - DBTransaction::commit(): took 0.33 seconds
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:00:50 805] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:06:17 199] - Dbmgr::writeEntity: Account(1).
+    INFO      dbmgr-1 49527 4000  [2017-06-15 12:06:17 185] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=1, dbid_tasks_size=3, entityid_tasks_size=0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 12:06:17 205] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=2176, dbid=1, dbid_tasks_size=2, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:06:17 230] - Dbmgr::onEntityOffline: 1, entityType=1.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:06:17 230] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:06:17 261] - Dbmgr::onEntityOffline: 1, entityType=2.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 12:06:17 218] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=1, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:19:26 863] - Dbmgr::onAccountLogin:loginName=TEST, accountName=TEST, success=0, componentID=0, dbid=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:19:27 164] - Dbmgr::queryAccount: TEST, success=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:19:30 763] - Dbmgr::DBTaskQueryEntity: Avatar, dbid=1, entityID=2178, wasActive=0, queryMode=0, componentID=7001, success=1.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:25:50 655] - Dbmgr::writeEntity: Account(1).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:26:05 955] - Dbmgr::writeEntity: Account(1).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:26:05 975] - Dbmgr::onEntityOffline: 1, entityType=1.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:26:05 995] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:26:05 995] - Dbmgr::onEntityOffline: 1, entityType=2.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 12:26:05 951] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=1, dbid_tasks_size=3, entityid_tasks_size=0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 12:26:05 965] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=2178, dbid=1, dbid_tasks_size=2, entityid_tasks_size=0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 12:26:05 976] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=1, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:30:08 770] - Dbmgr::reqCreateAccount: TESTmc.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:30:10 598] - Dbmgr::onAccountLogin:loginName=TESTmc, accountName=TESTmc, success=0, componentID=0, dbid=6, flags=0, deadline=0.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:30:11 473] - Dbmgr::queryAccount: TESTmc, success=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:30:19 703] - Dbmgr::writeEntity: Avatar(2).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:30:19 782] - Dbmgr::writeEntity: Avatar(2).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:30:19 782] - Dbmgr::writeEntity: Account(6).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:30:19 782] - Dbmgr::onEntityOffline: 2, entityType=2.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 12:30:19 756] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=2, dbid_tasks_size=2, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:30:25 173] - Dbmgr::DBTaskQueryEntity: Avatar, dbid=2, entityID=2181, wasActive=0, queryMode=0, componentID=7001, success=1.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:30:46 549] - Dbmgr::onAccountLogin:loginName=TEST, accountName=TEST, success=0, componentID=0, dbid=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:30:46 869] - Dbmgr::queryAccount: TEST, success=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:30:49 689] - Dbmgr::DBTaskQueryEntity: Avatar, dbid=1, entityID=2183, wasActive=0, queryMode=0, componentID=7001, success=1.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:32:18 968] - Dbmgr::reqCreateAccount: sheng.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:32:20 667] - Dbmgr::onAccountLogin:loginName=sheng, accountName=sheng, success=0, componentID=0, dbid=7, flags=0, deadline=0.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:32:21 267] - Dbmgr::queryAccount: sheng, success=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:32:29 467] - Dbmgr::writeEntity: Avatar(3).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:32:29 547] - Dbmgr::writeEntity: Avatar(3).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:32:29 567] - Dbmgr::writeEntity: Account(7).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:32:29 568] - Dbmgr::onEntityOffline: 3, entityType=2.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 12:32:29 542] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=3, dbid_tasks_size=2, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:32:33 567] - Dbmgr::DBTaskQueryEntity: Avatar, dbid=3, entityID=2186, wasActive=0, queryMode=0, componentID=7001, success=1.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:34:10 645] - Dbmgr::writeEntity: Account(7).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:34:39 844] - Dbmgr::writeEntity: Account(7).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:34:39 865] - Dbmgr::writeEntity: Avatar(3).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:34:39 885] - Dbmgr::onEntityOffline: 7, entityType=1.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 12:34:39 840] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=7, dbid_tasks_size=3, entityid_tasks_size=0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 12:34:39 860] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=3, dbid_tasks_size=2, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:34:39 904] - Dbmgr::onEntityOffline: 3, entityType=2.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:35:00 644] - Dbmgr::writeEntity: Account(1).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:35:50 663] - Dbmgr::writeEntity: Account(6).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:36:40 742] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:37:08 154] - Dbmgr::writeEntity: Account(1).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:37:08 154] - Dbmgr::onEntityOffline: 1, entityType=1.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:37:08 170] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:37:08 185] - Dbmgr::onEntityOffline: 1, entityType=2.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 12:37:08 134] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=1, dbid_tasks_size=3, entityid_tasks_size=0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 12:37:08 148] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=2183, dbid=1, dbid_tasks_size=2, entityid_tasks_size=0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 12:37:08 159] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=1, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:37:27 863] - Dbmgr::writeEntity: Account(6).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:37:27 895] - Dbmgr::writeEntity: Avatar(2).
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:37:27 895] - Dbmgr::onEntityOffline: 6, entityType=1.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 12:37:27 858] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=6, dbid_tasks_size=3, entityid_tasks_size=0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 12:37:27 872] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=2, dbid_tasks_size=2, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 12:37:27 911] - Dbmgr::onEntityOffline: 2, entityType=2.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:27 322] - -----------------------------------------------------------------------------------------
+
+
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:27 323] - Resmgr::initialize: KBE_ROOT=F:/kbengine_org/
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:27 323] - Resmgr::initialize: KBE_RES_PATH=F:/kbengine_org/kbe/res/;F:/kbengine_org/MS_PROJECT2/;F:/kbengine_org/MS_PROJECT2/scripts/;F:/kbengine_org/MS_PROJECT2/res/
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:27 323] - Resmgr::initialize: KBE_BIN_PATH=F:/kbengine_org/kbe/bin/server/
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:27 326] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.0.157 ( 192.168.0.157:53162 )
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:27 326] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.0.157:53162, SOMAXCONN=5.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:27 326] - server-configs:
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:27 326] - 	internalAddr : 192.168.0.157:53162
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:27 326] - 	componentID : 4000
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:27 354] - Components::findLogger: found logger, addr:192.168.0.157:53149
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:27 354] - Components::addComponent: reset orderLog, uid=49527!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:27 354] - Components::addComponent[logger], uid=49527, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:27 358] - ---- dbmgr Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: F679420710A02CD3A5AA610C30581A2E. Config: Debug X86. Built: 15:29:52 Jun 14 2017. AppID: 4000. UID: 49527. PID: 7188 ----
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:27 358] - Server : Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz with 2097151kB RAM
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:27 359] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:27 359] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 13:03:27 489] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 13:03:27 490] - Script::install_py_dlls(): PyInit__socket
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 13:03:27 490] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 13:03:27 491] - Script::install_py_dlls(): PyInit_select
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 13:03:27 492] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 13:03:27 492] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 13:03:27 518] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:27 546] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 14 2017, 15:29:45) [MSC v.1910 32 bit (Intel)])!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:27 546] - Script::install(): KBExtra is successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:27 623] - Dbmgr::initializeEnd: digest(CB9166D533AC44AA58C80881426C6737)
+  S_INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:27 624] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:27 624] - TelnetServer server is running on port 32000
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:27 624] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 13:03:27 801] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+368FBF06265F0D5D0CA4196BA1361EF863AD1E83C70AB9B5DCEA24BA9EA4813C77FFF1D4B9A5617BE329EBA8FE8B85EC5A2E0AB55D06759ABD1801A9F61FFBF16AAA414AA25807A4B32105A8A3E0B0791531C02F84898E3630974B251640A22B59B38B3D1F24B4E049F441D7152D1F021BE362AF567CCB0A918A2712A207CCB5
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 13:03:27 804] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 13:03:27 807] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:27 807] - DBUtil::createInterface[0x3df478]: interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=kbe, username=kbe, connected=yes.
+
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:27 807] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:27 808] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:27 912] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:27 914] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 49527 4000  [2017-06-15 13:03:27 957] - dbmgr.cpp:293: Profile scriptCall took 0.33 seconds
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:28 341] - ---- dbmgr is running ----
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 13:03:28 341] - Components::process(): Request for the process of identity...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 13:03:27 808] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 13:03:27 808] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 13:03:27 808] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 13:03:27 808] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 13:03:27 808] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 13:03:27 811] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 13:03:27 811] - DBThread::onStart(): 0x694670!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 13:03:27 811] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 13:03:27 811] - DBThread::onStart(): 0x694a28!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 13:03:27 811] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 13:03:27 811] - DBThread::onStart(): 0x694d58!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 13:03:27 811] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 13:03:27 811] - DBThread::onStart(): 0x694cd0!
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 13:03:27 811] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 13:03:27 811] - DBThread::onStart(): 0x694098!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:27 914] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:27 915] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:27 915] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:27 915] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:27 915] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:27 916] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:27 916] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:27 917] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:35 443] - Components::process(): Found all the components!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:39 623] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:53172, extaddr:nonsupport, extport:0,  from 192.168.0.157:53199/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:39 623] - Components::addComponent: reset orderLog, uid=49527!
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:39 623] - Components::addComponent[baseappmgr], uid=49527, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:40 423] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:53178, extaddr:nonsupport, extport:0,  from 192.168.0.157:53201/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:40 423] - Components::addComponent[cellappmgr], uid=49527, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:43 923] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:53185, extaddr:192.168.0.157, extport:20015,  from 192.168.0.157:53204/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:43 923] - Components::addComponent[baseapp], uid=49527, componentID=7001, globalorderid=3, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:43 963] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:53190, extaddr:192.168.0.157, extport:20013,  from 192.168.0.157:53206/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:43 963] - Components::addComponent[loginapp], uid=49527, componentID=9000, globalorderid=4, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:44 504] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:53189, extaddr:nonsupport, extport:0,  from 192.168.0.157:53210/0/0/0.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:44 504] - Components::addComponent[cellapp], uid=49527, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:47 523] - IDServer::allocRange: 1-2001.
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:47 523] - IDServer::allocRange: 2001-4001.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 13:03:47 523] - SyncAppDatasHandler::~SyncAppDatasHandler()
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:50 643] - GlobalDataServer::broadcastDataChanged: writer(baseapp, addr=192.168.0.157:53204/0/0/0), keySize=12, valSize=46, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:53 743] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:53210/0/0/0), keySize=13, valSize=46, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:54 743] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:53210/0/0/0), keySize=13, valSize=46, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:55 743] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:53210/0/0/0), keySize=13, valSize=47, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:56 743] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:53210/0/0/0), keySize=13, valSize=47, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:58 743] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:53210/0/0/0), keySize=13, valSize=47, isDelete=0
+    INFO      dbmgr-1 49527 4000  [2017-06-15 13:03:59 743] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.0.157:53210/0/0/0), keySize=13, valSize=47, isDelete=0
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 13:04:02 663] - Dbmgr::onAccountLogin:loginName=TEST, accountName=TEST, success=0, componentID=0, dbid=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 13:04:03 163] - Dbmgr::queryAccount: TEST, success=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 49527 4000  [2017-06-15 13:04:11 163] - Dbmgr::DBTaskQueryEntity: Avatar, dbid=1, entityID=176, wasActive=0, queryMode=0, componentID=7001, success=1.

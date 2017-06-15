@@ -1,0 +1,30 @@
+  INFO root [2017-06-14 18:04:38,062] - 
+  INFO root [2017-06-14 18:04:38,062] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2017-06-14 18:04:38,062] - Resmgr::initialize: KBE_ROOT=F:/kbengine/
+  INFO root [2017-06-14 18:04:38,063] - Resmgr::initialize: KBE_RES_PATH=F:/kbengine/kbe/res/;F:/kbengine/kbengine_demos_assets/;F:/kbengine/kbengine_demos_assets/scripts/;F:/kbengine/kbengine_demos_assets/res/
+  INFO root [2017-06-14 18:04:38,063] - Resmgr::initialize: KBE_BIN_PATH=F:/kbengine/kbe/bin/server/
+  INFO root [2017-06-14 18:04:38,066] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.0.157 ( 192.168.0.157:52577 )
+  INFO root [2017-06-14 18:04:38,066] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.0.157:52577, SOMAXCONN=5.
+  INFO root [2017-06-14 18:04:38,066] - server-configs:
+  INFO root [2017-06-14 18:04:38,066] - 	internalAddr : 192.168.0.157:52577
+  INFO root [2017-06-14 18:04:38,066] - 	componentID : 6000
+  INFO root [2017-06-14 18:04:38,167] - Components::findLogger: found logger, addr:192.168.0.157:52573
+  INFO root [2017-06-14 18:04:38,167] - Components::addComponent: reset orderLog, uid=49527!
+  INFO root [2017-06-14 18:04:38,167] - Components::addComponent[logger], uid=49527, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2017-06-14 18:04:38,171] - ---- cellappmgr Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 9F107064EDD89840A72B649BB4EB6E19. Config: Debug X86. Built: 15:29:49 Jun 14 2017. AppID: 6000. UID: 49527. PID: 6764 ----
+  INFO root [2017-06-14 18:04:38,171] - Server : Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz with 2097151kB RAM
+  INFO root [2017-06-14 18:04:38,171] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2017-06-14 18:04:38,172] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2017-06-14 18:04:38,548] - ---- cellappmgr is running ----
+ DEBUG root [2017-06-14 18:04:38,548] - Components::process(): Request for the process of identity...
+  WARN root [2017-06-14 18:04:44,602] - Forwarding logs to logger[192.168.0.157:52573/0/0/0]...
+ ERROR root [2017-06-14 19:57:31,986] - Components::removeComponentByChannel: baseapp : 7001, Abnormal exit! errorno=10054
+ ERROR root [2017-06-14 19:57:32,701] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [2017-06-14 19:57:32,705] - The following logs sent to logger failed:
+  WARN root [2017-06-14 19:57:32,707] - ==> [2017-06-14 19:57:32 699] TCPPacketReceiver::processPendingEvents(192.168.0.157:52573): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2017-06-14 19:57:32,708] - ==> [2017-06-14 19:57:32 701] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [2017-06-14 19:57:33,324] - TCPPacketReceiver::processPendingEvents(192.168.0.157:52700): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [2017-06-14 19:57:33,326] - Cellappmgr::removeCellapp: erase cellapp[8001], currsize=0
+ ERROR root [2017-06-14 19:57:33,329] - Components::removeComponentByChannel: cellapp : 8001, Abnormal exit! errorno=10054

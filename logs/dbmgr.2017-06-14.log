@@ -1,0 +1,250 @@
+  INFO root [2017-06-14 18:04:37,883] - 
+  INFO root [2017-06-14 18:04:37,883] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2017-06-14 18:04:37,883] - Resmgr::initialize: KBE_ROOT=F:/kbengine/
+  INFO root [2017-06-14 18:04:37,884] - Resmgr::initialize: KBE_RES_PATH=F:/kbengine/kbe/res/;F:/kbengine/kbengine_demos_assets/;F:/kbengine/kbengine_demos_assets/scripts/;F:/kbengine/kbengine_demos_assets/res/
+  INFO root [2017-06-14 18:04:37,884] - Resmgr::initialize: KBE_BIN_PATH=F:/kbengine/kbe/bin/server/
+  INFO root [2017-06-14 18:04:37,886] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.0.157 ( 192.168.0.157:52575 )
+  INFO root [2017-06-14 18:04:37,887] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.0.157:52575, SOMAXCONN=5.
+  INFO root [2017-06-14 18:04:37,887] - server-configs:
+  INFO root [2017-06-14 18:04:37,887] - 	internalAddr : 192.168.0.157:52575
+  INFO root [2017-06-14 18:04:37,887] - 	componentID : 4000
+  INFO root [2017-06-14 18:04:39,391] - ---- dbmgr Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: F679420710A02CD3A5AA610C30581A2E. Config: Debug X86. Built: 15:29:52 Jun 14 2017. AppID: 4000. UID: 49527. PID: 3240 ----
+  INFO root [2017-06-14 18:04:39,391] - Server : Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz with 2097151kB RAM
+  INFO root [2017-06-14 18:04:39,391] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2017-06-14 18:04:39,392] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2017-06-14 18:04:39,514] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2017-06-14 18:04:39,514] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2017-06-14 18:04:39,514] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2017-06-14 18:04:39,516] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2017-06-14 18:04:39,516] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2017-06-14 18:04:39,516] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2017-06-14 18:04:39,540] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2017-06-14 18:04:39,566] - Script::install(): is successfully, Python=(3.4.2 (default, Jun 14 2017, 15:29:45) [MSC v.1910 32 bit (Intel)])!
+  INFO root [2017-06-14 18:04:39,566] - Script::install(): KBExtra is successfully!
+  INFO root [2017-06-14 18:04:39,635] - Dbmgr::initializeEnd: digest(CB9166D533AC44AA58C80881426C6737)
+S_INFO root [2017-06-14 18:04:39,635] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2017-06-14 18:04:39,635] - TelnetServer server is running on port 32000
+  INFO root [2017-06-14 18:04:39,636] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+  WARN root [2017-06-14 18:04:39,809] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+206AECBA5A17E9CCF086C82CA384D4B0970294973F77F891EDA50285046CC8C65BBFABA17D82F7B9772812451D7CD42CE21A70F3867EB502E9D71A156EAAC7A800D07E146FC1DA08D0BDA4A9D82D40FB1782D697357CF56E148D10BFE5352553F116858CE38C018E1059C9521FE1E41417FAB18C60CFCE00CC2E0EC65E9563EB
+ DEBUG root [2017-06-14 18:04:39,811] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2017-06-14 18:04:39,814] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+  INFO root [2017-06-14 18:04:39,814] - DBUtil::createInterface[0x150f07c]: interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=kbe, username=kbe, connected=yes.
+
+  INFO root [2017-06-14 18:04:39,814] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2017-06-14 18:04:39,814] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+ DEBUG root [2017-06-14 18:04:39,814] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2017-06-14 18:04:39,814] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2017-06-14 18:04:39,815] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2017-06-14 18:04:39,815] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2017-06-14 18:04:39,815] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2017-06-14 18:04:39,817] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2017-06-14 18:04:39,817] - DBThread::onStart(): 0x1860c90!
+ DEBUG root [2017-06-14 18:04:39,817] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2017-06-14 18:04:39,817] - DBThread::onStart(): 0x1860f38!
+ DEBUG root [2017-06-14 18:04:39,817] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2017-06-14 18:04:39,817] - DBThread::onStart(): 0x18611e0!
+ DEBUG root [2017-06-14 18:04:39,817] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2017-06-14 18:04:39,818] - DBThread::onStart(): 0x18617b8!
+ DEBUG root [2017-06-14 18:04:39,818] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2017-06-14 18:04:39,818] - DBThread::onStart(): 0x1860c08!
+  INFO root [2017-06-14 18:04:39,918] - DBInterfaceMysql::query: successfully!
+  INFO root [2017-06-14 18:04:39,920] - DBInterfaceMysql::query: successfully!
+  INFO root [2017-06-14 18:04:39,922] - DBInterfaceMysql::query: successfully!
+  INFO root [2017-06-14 18:04:39,923] - DBInterfaceMysql::query: successfully!
+  INFO root [2017-06-14 18:04:39,923] - DBInterfaceMysql::query: successfully!
+  INFO root [2017-06-14 18:04:39,923] - DBInterfaceMysql::query: successfully!
+  INFO root [2017-06-14 18:04:39,923] - DBInterfaceMysql::query: successfully!
+  INFO root [2017-06-14 18:04:39,923] - DBInterfaceMysql::query: successfully!
+  INFO root [2017-06-14 18:04:39,924] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2017-06-14 18:04:39,928] - syncToDB(): Account->sm_lastSelCharacter(bigint unsigned not null DEFAULT 0).
+  INFO root [2017-06-14 18:04:39,928] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2017-06-14 18:04:40,538] - syncToDB(): Account_characters_values->sm_autoLoad(tinyint not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:04:40,538] - syncToDB(): Avatar->sm_autoLoad(tinyint not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:04:40,538] - syncToDB(): Monster->sm_autoLoad(tinyint not null DEFAULT 0).
+  WARN root [2017-06-14 18:04:40,538] - DBTask::process(): took 0.62 seconds
+sql:(show index from tbl_Account)
+ DEBUG root [2017-06-14 18:04:40,539] - syncToDB(): Avatar_skills->sm_autoLoad(tinyint not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:04:41,691] - syncToDB(): NPC->sm_autoLoad(tinyint not null DEFAULT 0).
+  INFO root [2017-06-14 18:04:42,108] - DBInterfaceMysql::query: successfully!
+  INFO root [2017-06-14 18:04:42,108] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2017-06-14 18:04:42,109] - syncToDB(): Monster->sm_dbid(bigint unsigned not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:04:42,109] - syncToDB(): Avatar_skills->sm_value(int not null DEFAULT 0).
+  INFO root [2017-06-14 18:04:42,401] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2017-06-14 18:04:42,401] - syncToDB(): Account_characters_values->sm_dbid(bigint unsigned not null DEFAULT 0).
+  INFO root [2017-06-14 18:04:42,700] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2017-06-14 18:04:42,701] - syncToDB(): Avatar->sm_roleType(tinyint unsigned not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:04:43,275] - syncToDB(): Account_characters_values->sm_name(varchar(256) not null DEFAULT '').
+ DEBUG root [2017-06-14 18:04:43,275] - syncToDB(): Monster->sm_persistentMapping(blob).
+  INFO root [2017-06-14 18:04:43,276] - DBInterfaceMysql::query: successfully!
+  WARN root [2017-06-14 18:04:43,276] - DBTask::process(): took 3.35 seconds
+sql:(show index from tbl_Avatar_skills)
+ DEBUG root [2017-06-14 18:04:43,276] - syncToDB(): NPC->sm_dbid(bigint unsigned not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:04:43,276] - syncToDB(): Avatar->sm_dbid(bigint unsigned not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:04:44,393] - syncToDB(): Monster->sm_0_position(float not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:04:44,393] - syncToDB(): Spaces->sm_autoLoad(tinyint not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:04:44,722] - syncToDB(): Account_characters_values->sm_roleType(tinyint unsigned not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:04:44,889] - syncToDB(): Avatar->sm_persistentMapping(blob).
+ DEBUG root [2017-06-14 18:04:45,018] - syncToDB(): NPC->sm_persistentMapping(blob).
+ DEBUG root [2017-06-14 18:04:45,305] - syncToDB(): Monster->sm_1_position(float not null DEFAULT 0).
+  INFO root [2017-06-14 18:04:45,785] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2017-06-14 18:04:45,785] - syncToDB(): Avatar->sm_0_position(float not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:04:45,785] - syncToDB(): Spaces->sm_dbid(bigint unsigned not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:04:46,103] - syncToDB(): NPC->sm_0_position(float not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:04:46,103] - syncToDB(): Account_characters_values->sm_level(smallint unsigned not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:04:46,361] - syncToDB(): Monster->sm_2_position(float not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:04:47,995] - syncToDB(): Avatar->sm_1_position(float not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:04:48,315] - syncToDB(): Spaces->sm_persistentMapping(blob).
+ DEBUG root [2017-06-14 18:04:49,099] - syncToDB(): Account_characters_values->sm_data_param1(tinyint not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:04:49,523] - syncToDB(): NPC->sm_1_position(float not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:04:49,979] - syncToDB(): Spaces->sm_name(varchar(255) not null DEFAULT '').
+ DEBUG root [2017-06-14 18:04:50,213] - syncToDB(): Monster->sm_0_direction(float not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:04:50,388] - syncToDB(): Avatar->sm_2_position(float not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:04:50,388] - syncToDB(): Account_characters_values->sm_data_param2(blob).
+ DEBUG root [2017-06-14 18:04:51,046] - syncToDB(): NPC->sm_2_position(float not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:04:51,299] - syncToDB(): Spaces->sm_uid(int unsigned not null DEFAULT 0).
+  WARN root [2017-06-14 18:04:51,814] - DBTask::process(): took 11.89 seconds
+sql:(show index from tbl_Account_characters_values)
+ DEBUG root [2017-06-14 18:04:51,966] - syncToDB(): Monster->sm_1_direction(float not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:04:52,158] - syncToDB(): Avatar->sm_0_direction(float not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:04:52,407] - syncToDB(): NPC->sm_0_direction(float not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:04:52,516] - syncToDB(): Gate->sm_autoLoad(tinyint not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:04:52,516] - syncToDB(): Spaces->sm_utype(int unsigned not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:04:52,883] - syncToDB(): Monster->sm_2_direction(float not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:04:53,800] - syncToDB(): NPC->sm_1_direction(float not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:04:54,303] - syncToDB(): Avatar->sm_1_direction(float not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:04:54,303] - syncToDB(): Monster->sm_name(varchar(255) not null DEFAULT '').
+  WARN root [2017-06-14 18:04:54,303] - DBTask::process(): delay 3.36 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(show index from tbl_Spaces)
+  WARN root [2017-06-14 18:04:54,303] - DBTask::process(): took 11.03 seconds
+sql:(show index from tbl_Spaces)
+ DEBUG root [2017-06-14 18:04:54,785] - syncToDB(): NPC->sm_2_direction(float not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:04:55,493] - syncToDB(): Space->sm_autoLoad(tinyint not null DEFAULT 0).
+  INFO root [2017-06-14 18:04:55,493] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2017-06-14 18:04:55,493] - syncToDB(): Gate->sm_dbid(bigint unsigned not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:04:55,685] - syncToDB(): Monster->sm_uid(int unsigned not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:04:55,992] - syncToDB(): Avatar->sm_2_direction(float not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:04:56,159] - syncToDB(): NPC->sm_name(varchar(255) not null DEFAULT '').
+ DEBUG root [2017-06-14 18:04:57,219] - syncToDB(): Gate->sm_persistentMapping(blob).
+ DEBUG root [2017-06-14 18:04:57,508] - syncToDB(): Monster->sm_utype(int unsigned not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:04:57,831] - syncToDB(): NPC->sm_uid(int unsigned not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:04:58,360] - syncToDB(): Avatar->sm_spaceUType(int unsigned not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:04:58,910] - syncToDB(): Gate->sm_0_position(float not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:04:58,911] - syncToDB(): Monster->sm_HP(int not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:04:59,060] - syncToDB(): NPC->sm_utype(int unsigned not null DEFAULT 0).
+  INFO root [2017-06-14 18:04:59,301] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2017-06-14 18:04:59,302] - syncToDB(): Space->sm_spaceKey(bigint unsigned not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:04:59,552] - syncToDB(): Avatar->sm_level(smallint unsigned not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:05:00,511] - syncToDB(): Gate->sm_1_position(float not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:05:00,994] - syncToDB(): Avatar->sm_name(varchar(255) not null DEFAULT '').
+ DEBUG root [2017-06-14 18:05:01,061] - syncToDB(): Monster->sm_MP(int not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:05:01,194] - syncToDB(): Space->sm_context(blob).
+  WARN root [2017-06-14 18:05:01,194] - DBTask::process(): took 20.66 seconds
+sql:(show index from tbl_NPC)
+ DEBUG root [2017-06-14 18:05:01,836] - syncToDB(): Gate->sm_2_position(float not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:05:02,404] - syncToDB(): SpaceDuplicate->sm_autoLoad(tinyint not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:05:02,405] - syncToDB(): Avatar->sm_uid(int unsigned not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:05:02,405] - syncToDB(): Space->sm_dbid(bigint unsigned not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:05:02,406] - syncToDB(): Gate->sm_0_direction(float not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:05:02,406] - syncToDB(): Monster->sm_state(tinyint not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:05:03,866] - syncToDB(): Gate->sm_1_direction(float not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:05:03,866] - syncToDB(): Space->sm_persistentMapping(blob).
+ DEBUG root [2017-06-14 18:05:03,866] - syncToDB(): Avatar->sm_utype(int unsigned not null DEFAULT 0).
+  WARN root [2017-06-14 18:05:03,867] - DBTask::process(): took 23.88 seconds
+sql:(show index from tbl_Monster)
+ DEBUG root [2017-06-14 18:05:04,763] - syncToDB(): SpawnPoint->sm_autoLoad(tinyint not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:05:04,838] - syncToDB(): Gate->sm_2_direction(float not null DEFAULT 0).
+  INFO root [2017-06-14 18:05:04,906] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2017-06-14 18:05:04,906] - syncToDB(): SpaceDuplicate->sm_spaceKey(bigint unsigned not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:05:05,080] - syncToDB(): Space->sm_0_position(float not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:05:05,080] - syncToDB(): Avatar->sm_HP(int not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:05:06,398] - syncToDB(): Gate->sm_name(varchar(255) not null DEFAULT '').
+ DEBUG root [2017-06-14 18:05:06,686] - syncToDB(): Space->sm_1_position(float not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:05:06,686] - syncToDB(): SpaceDuplicate->sm_context(blob).
+ DEBUG root [2017-06-14 18:05:06,831] - syncToDB(): Avatar->sm_MP(int not null DEFAULT 0).
+  INFO root [2017-06-14 18:05:07,849] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2017-06-14 18:05:07,849] - syncToDB(): SpawnPoint->sm_spawnEntityNO(int unsigned not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:05:07,891] - syncToDB(): Gate->sm_uid(int unsigned not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:05:08,016] - syncToDB(): Avatar->sm_state(tinyint not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:05:08,016] - syncToDB(): SpaceDuplicate->sm_dbid(bigint unsigned not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:05:08,223] - syncToDB(): Space->sm_2_position(float not null DEFAULT 0).
+  WARN root [2017-06-14 18:05:09,300] - DBTask::process(): took 29.38 seconds
+sql:(show index from tbl_Avatar)
+ DEBUG root [2017-06-14 18:05:09,353] - syncToDB(): Gate->sm_utype(int unsigned not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:05:09,353] - syncToDB(): SpaceDuplicate->sm_persistentMapping(blob).
+ DEBUG root [2017-06-14 18:05:09,353] - syncToDB(): Space->sm_0_direction(float not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:05:09,353] - syncToDB(): SpawnPoint->sm_dbid(bigint unsigned not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:05:10,459] - syncToDB(): Space->sm_1_direction(float not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:05:10,460] - syncToDB(): SpaceDuplicate->sm_0_position(float not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:05:10,460] - syncToDB(): SpawnPoint->sm_persistentMapping(blob).
+  WARN root [2017-06-14 18:05:10,460] - DBTask::process(): delay 11.90 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(show index from tbl_Gate)
+  WARN root [2017-06-14 18:05:10,461] - DBTask::process(): took 18.65 seconds
+sql:(show index from tbl_Gate)
+ DEBUG root [2017-06-14 18:05:11,392] - syncToDB(): Space->sm_2_direction(float not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:05:11,392] - syncToDB(): SpawnPoint->sm_0_position(float not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:05:11,393] - syncToDB(): SpaceDuplicate->sm_1_position(float not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:05:12,527] - syncToDB(): SpaceDuplicate->sm_2_position(float not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:05:12,527] - syncToDB(): SpawnPoint->sm_1_position(float not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:05:12,528] - syncToDB(): Space->sm_name(varchar(255) not null DEFAULT '').
+ DEBUG root [2017-06-14 18:05:13,416] - syncToDB(): SpaceDuplicate->sm_0_direction(float not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:05:13,416] - syncToDB(): SpawnPoint->sm_2_position(float not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:05:14,049] - syncToDB(): Space->sm_uid(int unsigned not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:05:14,316] - syncToDB(): SpawnPoint->sm_0_direction(float not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:05:14,508] - syncToDB(): SpaceDuplicate->sm_1_direction(float not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:05:14,833] - syncToDB(): Space->sm_utype(int unsigned not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:05:15,161] - syncToDB(): SpawnPoint->sm_1_direction(float not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:05:15,477] - syncToDB(): SpaceDuplicate->sm_2_direction(float not null DEFAULT 0).
+  WARN root [2017-06-14 18:05:15,734] - DBTask::process(): delay 14.38 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(show index from tbl_Space)
+  WARN root [2017-06-14 18:05:15,735] - DBTask::process(): took 21.43 seconds
+sql:(show index from tbl_Space)
+ DEBUG root [2017-06-14 18:05:15,878] - syncToDB(): SpawnPoint->sm_2_direction(float not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:05:15,879] - syncToDB(): SpaceDuplicate->sm_name(varchar(255) not null DEFAULT '').
+ DEBUG root [2017-06-14 18:05:17,035] - syncToDB(): SpawnPoint->sm_name(varchar(255) not null DEFAULT '').
+ DEBUG root [2017-06-14 18:05:17,035] - syncToDB(): SpaceDuplicate->sm_uid(int unsigned not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:05:17,547] - syncToDB(): SpaceDuplicate->sm_utype(int unsigned not null DEFAULT 0).
+ DEBUG root [2017-06-14 18:05:17,547] - syncToDB(): SpawnPoint->sm_uid(int unsigned not null DEFAULT 0).
+  WARN root [2017-06-14 18:05:18,238] - DBTask::process(): delay 21.28 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(show index from tbl_SpaceDuplicate)
+  WARN root [2017-06-14 18:05:18,239] - DBTask::process(): took 17.04 seconds
+sql:(show index from tbl_SpaceDuplicate)
+ DEBUG root [2017-06-14 18:05:18,239] - syncToDB(): SpawnPoint->sm_utype(int unsigned not null DEFAULT 0).
+  WARN root [2017-06-14 18:05:18,619] - DBTask::process(): delay 23.95 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(show index from tbl_SpawnPoint)
+  WARN root [2017-06-14 18:05:18,620] - DBTask::process(): took 14.75 seconds
+sql:(show index from tbl_SpawnPoint)
+  WARN root [2017-06-14 18:05:18,641] - dbmgr.cpp:293: Profile scriptCall took 39.01 seconds
+  INFO root [2017-06-14 18:05:18,936] - ---- dbmgr is running ----
+ DEBUG root [2017-06-14 18:05:18,936] - Components::process(): Request for the process of identity...
+  INFO root [2017-06-14 18:05:25,033] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:52583, extaddr:192.168.0.157, extport:20013,  from 192.168.0.157:52686/0/0/0.
+  INFO root [2017-06-14 18:05:25,033] - Components::addComponent: reset orderLog, uid=49527!
+  INFO root [2017-06-14 18:05:25,033] - Components::addComponent[loginapp], uid=49527, componentID=9000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2017-06-14 18:05:25,033] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:52576, extaddr:nonsupport, extport:0,  from 192.168.0.157:52688/0/0/0.
+  INFO root [2017-06-14 18:05:25,033] - Components::addComponent[baseappmgr], uid=49527, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO root [2017-06-14 18:05:25,034] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:52577, extaddr:nonsupport, extport:0,  from 192.168.0.157:52690/0/0/0.
+  INFO root [2017-06-14 18:05:25,034] - Components::addComponent[cellappmgr], uid=49527, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO root [2017-06-14 18:05:25,973] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:52579, extaddr:192.168.0.157, extport:20015,  from 192.168.0.157:52698/0/0/0.
+  INFO root [2017-06-14 18:05:25,973] - Components::addComponent[baseapp], uid=49527, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+  INFO root [2017-06-14 18:05:26,013] - Components::findComponents: find logger(1)...
+  INFO root [2017-06-14 18:05:26,026] - Components::findComponents: found logger, addr:192.168.0.157:52573
+  INFO root [2017-06-14 18:05:26,026] - Components::addComponent[logger], uid=49527, componentID=2000, globalorderid=5, grouporderid=1, totalcount=1
+  INFO root [2017-06-14 18:05:26,027] - ServerApp::onRegisterNewApp: uid:49527, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.0.157, intport:52582, extaddr:nonsupport, extport:0,  from 192.168.0.157:52699/0/0/0.
+  INFO root [2017-06-14 18:05:26,027] - Components::addComponent[cellapp], uid=49527, componentID=8001, globalorderid=6, grouporderid=1, totalcount=1
+  INFO root [2017-06-14 18:05:26,033] - Components::process(): Found all the components!
+  WARN root [2017-06-14 18:05:26,082] - Forwarding logs to logger[192.168.0.157:52573/0/0/0]...
+ ERROR root [2017-06-14 19:57:31,524] - Components::removeComponentByChannel: loginapp : 9000, Abnormal exit! errorno=10054
+ ERROR root [2017-06-14 19:57:31,985] - Components::removeComponentByChannel: baseapp : 7001, Abnormal exit! errorno=10054
+ ERROR root [2017-06-14 19:57:32,700] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [2017-06-14 19:57:32,706] - The following logs sent to logger failed:
+  WARN root [2017-06-14 19:57:32,707] - ==> [2017-06-14 19:57:32 698] TCPPacketReceiver::processPendingEvents(192.168.0.157:52573): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2017-06-14 19:57:32,709] - ==> [2017-06-14 19:57:32 701] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [2017-06-14 19:57:33,323] - TCPPacketReceiver::processPendingEvents(192.168.0.157:52699): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2017-06-14 19:57:33,325] - Components::removeComponentByChannel: cellapp : 8001, Abnormal exit! errorno=10054
+  WARN root [2017-06-14 19:57:34,882] - TCPPacketReceiver::processPendingEvents(192.168.0.157:52690): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2017-06-14 19:57:34,883] - Components::removeComponentByChannel: cellappmgr : 6000, Abnormal exit! errorno=10054
+  WARN root [2017-06-14 19:57:35,584] - TCPPacketReceiver::processPendingEvents(192.168.0.157:52688): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2017-06-14 19:57:35,587] - Components::removeComponentByChannel: baseappmgr : 5000, Abnormal exit! errorno=10054
